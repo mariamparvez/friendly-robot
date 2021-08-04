@@ -917,9 +917,6 @@ button.bg-danger:hover {
 	box-shadow: none;
 	outline: 0 none;
 }
-.form-group {
-	margin-bottom: 1.25rem;
-}
 .slider-btn{
     background: #2f8963;
     color: #fdfdfd;
@@ -1723,7 +1720,7 @@ button.bg-danger:hover {
 .pharmacy-home-slider .swiper-container{
 	position: relative;
 	padding: 0 !important;
-	height: 450px;
+	height: 650px;
 	min-height: inherit;
 }
 .pharmacy-home-slider .swiper-container:before {
@@ -2198,15 +2195,18 @@ button.bg-danger:hover {
 .top-icon {
 	margin-right: 5px;
 }
+.search-btns{
+	padding: .5rem;
+	border: none;
+	margin: 0 .5rem 0 0;
+	border-radius: .3rem .3rem 0 0;
+}
 .search-box-1{
 	background: #2f8963;
     padding: 40px 20px;
     border-radius: 10px; 
 	margin-top: -50px;
     position: absolute;
-}
-.search-box .form-group{
-	margin-bottom: 0px;
 }
 .header-trans {
 	position: fixed;
@@ -3309,9 +3309,9 @@ html.menu-opened body {
 	display: flex;
 }	
 .search-box .form-control {
-    border: 1px solid #ccc;
+    border: none;
     box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
-    border-radius: 5px;
+    border-radius: .3rem;
     padding-left: 35px;
 }
 .search-box .search-location {
@@ -3369,7 +3369,7 @@ html.menu-opened body {
     width: 20px;
     height: 5px;
     margin: 0 5px;
-    padding: 0;
+    padding: 10rem;
     cursor: pointer;
     border-radius: 0;
 }
@@ -3386,6 +3386,12 @@ html.menu-opened body {
 	width: 20px;
     height: 5px;
     opacity: 1;
+}
+
+.search-box {
+	background-color: #009efb;
+	padding: 2rem;
+	width:fit-content;
 }
 .search-img {
     margin-top: 80px;
@@ -3449,12 +3455,6 @@ html.menu-opened body {
 	display: -ms-flexbox;
 	display: flex;
 }	
-.search-box .form-control {
-    border: 1px solid #ccc;
-    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
-    border-radius: 5px;
-    padding-left: 35px;
-}
 .search-box .search-location {
     -ms-flex: 0 0 240px;
     flex: 0 0 240px;
@@ -11193,9 +11193,6 @@ ul.benifits-col li i{
 	}
 	.divider .carousel-inner {
 		height: 100%;
-	}
-	.divider .form-group {
-		margin-bottom: 10px;
 	}
 	.banner-wrapper .banner-header h1 {
 		font-size: 2rem;
