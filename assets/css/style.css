@@ -1746,7 +1746,7 @@ button.bg-danger:hover {
 .pharmacy-home-slider .banner-wrapper .banner-header h1,
 .pharmacy-home-slider .banner-wrapper .banner-header p,
 .pharmacy-home-slider .search-box .form-text {
-	color: #fdfdfd;
+	color: #151515;
 }
 .pharmacy-home-slider img {
 	max-width: 100%;
@@ -2199,6 +2199,9 @@ button.bg-danger:hover {
 	padding: .5rem;
 	border: none;
 	margin: 0 .5rem 0 0;
+	color: #151515;
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: .3rem .3rem 0 0;
 }
 .search-box-1{
@@ -3311,23 +3314,52 @@ html.menu-opened body {
 .search-box .form-control {
     border: none;
     box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
-    border-radius: .3rem;
     padding-left: 35px;
 }
-.search-box .search-location {
+.search-btns{
+	padding: .5rem;
+	border: none;
+	margin: 0 .5rem 0 0;
+	color: #151515;
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: .3rem .3rem 0 0;
+}
+
+.s-btns {
+	display: flex;
+	align-items: flex-end;
+}
+.search-big {
+	padding: 1rem;
+	border: none;
+	margin: 0 .5rem 0 0;
+	color: #151515;
+	font-weight: bold;
+	background-color: rgba(138, 165, 255, 0.5);
+	border-radius: .3rem .3rem 0 0;
+}
+.form-design {
+	padding: 1rem;
+	border-radius: 0 0 .3rem .3rem;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.search-box .search-location .form-control{
     -ms-flex: 0 0 240px;
     flex: 0 0 240px;
     margin-right: 12px;
     position: relative;
     width: 240px;
+	border-radius:.3rem;
 }
 .search-location .form-control {
 	background: #fdfdfd url(../img/location.png) no-repeat 10px center;
 }
-.search-box .search-info {
+.search-box .search-info .form-control {
     -ms-flex: 0 0 490px;
     flex: 0 0 490px;
     margin-right: 12px;
+	border-radius: .3rem;
     position: relative;
     width: 490px;
 }
@@ -3345,7 +3377,7 @@ html.menu-opened body {
 	font-weight: 500;
 }
 .search-box .form-text {
-    color: #757575;
+    color: #151515;
     font-size: 13px;
 }
 .section-specialities {
@@ -3369,7 +3401,6 @@ html.menu-opened body {
     width: 20px;
     height: 5px;
     margin: 0 5px;
-    padding: 10rem;
     cursor: pointer;
     border-radius: 0;
 }
@@ -3389,7 +3420,6 @@ html.menu-opened body {
 }
 
 .search-box {
-	background-color: #009efb;
 	padding: 2rem;
 	width:fit-content;
 }
@@ -3411,7 +3441,7 @@ html.menu-opened body {
 	margin-bottom: 0;
 }
 .search-area {
-    background: #fdfdfd6b;
+    background: #fdfdfd;
     padding: 60px 30px;
     position: relative;
     z-index: 1;
