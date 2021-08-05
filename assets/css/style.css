@@ -3283,9 +3283,6 @@ html.menu-opened body {
     max-width: 800px;
     width: 100%;
 }
-.banner-wrapper .banner-header {
-	margin-bottom: 30px;
-}
 .search-box form {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -3425,14 +3422,17 @@ html.menu-opened body {
 }
 .banner-wrapper .banner-header {
 	margin-bottom: 30px;
+	
 	padding-top: 9rem !important;
 }
 .banner-wrapper .banner-header h1 {
 	font-size: 2.566rem !important;
+	color: #fdfdfd;
 	font-weight: 200 !important;
 }
 .banner-wrapper .banner-header p {
 	font-size: 1.424rem !important;
+	color: #fdfdfd;
 	margin-bottom: 0;
 	font-weight: 700 !important;
 }
