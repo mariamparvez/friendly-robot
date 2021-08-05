@@ -3336,7 +3336,7 @@ html.menu-opened body {
 
 .form-design {
 	padding: 1rem;
-	width: auto;
+	width: fit-content;
 	border-radius: 0 .3rem .3rem .3rem;
 	margin-bottom: 4rem;
 	background-color: rgba(255, 255, 255, 0.5);
@@ -3345,7 +3345,7 @@ html.menu-opened body {
     -ms-flex: 0 0 240px;
     flex: 0 0 240px;
     position: relative;
-    width: inherit;
+    width: fit-content;
 	border-radius:.3rem;
 }
 .search-location .form-control {
@@ -3356,7 +3356,7 @@ html.menu-opened body {
     flex: 0 0 490px;
 	border-radius: .3rem;
     position: relative;
-    width: inherit;
+    width: 490px;
 }
 .search-info .form-control {
 	background: #fdfdfd url(../img/search.png) no-repeat 10px center;
@@ -3366,6 +3366,7 @@ html.menu-opened body {
     -ms-flex: 0 0 46px;
     flex: 0 0 46px;
     height: 46px;
+	margin: 0 auto 0 .5rem;
 }
 .search-box .search-btn span {
 	display: none;
@@ -10453,6 +10454,13 @@ ul.benifits-col li i{
 		width: 8rem;
 		height: 8rem;
 	}
+	.form-design {
+		padding: 1rem;
+		width: auto;
+		border-radius: 0 .3rem .3rem .3rem;
+		margin-bottom: 4rem;
+		background-color: rgba(255, 255, 255, 0.5);
+	}
 	.avatar-xxl .border {
 		border-width: 4px !important;
 	}
@@ -10469,6 +10477,13 @@ ul.benifits-col li i{
 	}
 }
 @media (min-width: 992px) {
+	.form-design {
+		padding: 1rem;
+		width: auto;
+		border-radius: 0 .3rem .3rem .3rem;
+		margin-bottom: 4rem;
+		background-color: rgba(255, 255, 255, 0.5);
+	}
 	.main-nav > li {
 		margin-right: 30px;
 	}
@@ -10612,6 +10627,13 @@ ul.benifits-col li i{
 	.chat-cont-left .chat-users-list a.media .media-body > div:first-child .user-last-chat {
 		max-width: 180px;
 	}
+	.form-design {
+		padding: 1rem;
+		width: auto;
+		border-radius: 0 .3rem .3rem .3rem;
+		margin-bottom: 4rem;
+		background-color: rgba(255, 255, 255, 0.5);
+	}
 	.row.row-grid {
 		margin-left: -8px;
 		margin-right: -8px;
@@ -10625,6 +10647,13 @@ ul.benifits-col li i{
 	}
 }
 @media (min-width: 1200px) { 
+	.form-design {
+		padding: 1rem;
+		width: auto;
+		border-radius: 0 .3rem .3rem .3rem;
+		margin-bottom: 4rem;
+		background-color: rgba(255, 255, 255, 0.5);
+	}
 	.aval-features .custom-contain {
 		width: 100%;
 		padding-right: 15px;
@@ -10633,13 +10662,27 @@ ul.benifits-col li i{
 		margin-left: auto;
 	}
 }
-@media (min-width: 1600px) { 		
+@media (min-width: 1600px) { 	
+	.form-design {
+		padding: 1rem;
+		width: auto;
+		border-radius: 0 .3rem .3rem .3rem;
+		margin-bottom: 4rem;
+		background-color: rgba(255, 255, 255, 0.5);
+	}	
 	.blog-wrapper .wrap-content:before {
 		border-left: 221px solid transparent;
 		border-right: 221px solid transparent;
 	}
 }
 @media only screen and (max-width: 1199px) {
+	.form-design {
+		padding: 1rem;
+		width: fit-content;
+		border-radius: 0 .3rem .3rem .3rem;
+		margin-bottom: 4rem;
+		background-color: rgba(255, 255, 255, 0.5);
+	}
 	.header-nav {
 		padding-left: 20px;
 		padding-right: 20px;
