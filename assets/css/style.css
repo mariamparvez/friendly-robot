@@ -1654,7 +1654,7 @@ button.bg-danger:hover {
     font-size: 20px;
     line-height: 1;
     opacity: .75;
-    color: #383838;
+    color: #fdfdfd;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -1668,7 +1668,7 @@ button.bg-danger:hover {
 }
 .pharmacy-home-slider .swiper-button-prev:before {
 	content: '←';
-	color: #383838;
+	color: #fdfdfd;
 	height: 40px;
 	font-size: 20px;
 	display: flex;
@@ -1681,7 +1681,7 @@ button.bg-danger:hover {
 }
 .pharmacy-home-slider .swiper-button-next:before {
 	content: '→';
-	color: #383838;
+	color: #fdfdfd;
 	font-size: 20px;
 	display: flex;
 	display: -webkit-flex;
@@ -2365,7 +2365,7 @@ html.menu-opened body {
 -----------------------*/
 
 .footer {
-    background-color: #2c4139;
+	background-image: linear-gradient(to right, #e1ebe7 , #afc5bb);
 }
 .footer .footer-top {
 	padding: 40px 0;
@@ -2390,10 +2390,10 @@ html.menu-opened body {
 	border-top: 1px solid #fdfdfd;
 }
 .footer.custom-footer .copyright-text span {
-	color: #fdfdfd;
+	color: #151515;
 }
 .footer-title {
-    color: #fdfdfd;
+    color: #151515;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -2409,7 +2409,7 @@ html.menu-opened body {
 	margin-bottom: 30px;
 }
 .footer .footer-widget .footer-about-content p {
-	color: #fdfdfd;
+	color: #151515;
 }
 .footer .footer-widget .footer-about-content p:last-child {
 	margin-bottom: 0;
@@ -2422,14 +2422,14 @@ html.menu-opened body {
 	margin-bottom: 0;
 }
 .footer .footer-menu ul li a {
-	color: #fdfdfd;
+	color: #151515;
 	font-size: 15px;
 	padding-left: 20px;
 	position: relative;
 	transition: all 0.4s ease 0s;
 }
 .footer .footer-widget.footer-menu ul li a:hover {
-	color: #fdfdfd;
+	color: #151515;
 	letter-spacing: 0.5px;
 	padding-left: 30px;
 }
@@ -2443,7 +2443,7 @@ html.menu-opened body {
     top: 0;
 }
 .footer-contact-info {
-	color: #fdfdfd;
+	color: #151515;
 	font-size: 15px;
 }
 .footer-contact-info .footer-address {
@@ -2461,11 +2461,11 @@ html.menu-opened body {
 	margin-right: 15px;
 }
 .footer .footer-bottom .copyright {
-	border-top: 1px solid #fdfdfd;
+	border-top: 1px solid #151515;
 	padding: 30px 0;
 }
 .footer .footer-bottom .copyright-text p {
-	color: #fdfdfd;
+	color: #151515;
 	font-size: 15px;
 }
 .footer .footer-bottom .copyright-text p a {
@@ -2475,7 +2475,7 @@ html.menu-opened body {
 	transition: all 0.4s ease 0s;
 }
 .footer .footer-bottom .copyright-text p a:hover {
-	color: #fdfdfd;
+	color: #151515;
 }
 .footer .footer-bottom .copyright-text p.title {
 	font-weight: 400;
@@ -2496,7 +2496,7 @@ html.menu-opened body {
 	margin-right: 0;
 }
 .footer .social-icon ul li a {	
-	color: #fdfdfd;
+	color: #151515;
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
 	display: inline-flex;
@@ -2520,13 +2520,13 @@ html.menu-opened body {
 	margin-right: 0;
 }
 .policy-menu li a {
-    color: #fdfdfd;
+    color: #151515;
 }
 .policy-menu li a:hover, .policy-menu li a:focus {
 	color: #2f8963;
 }
 .policy-menu li::after {
-	color: #fdfdfd;
+	color: #151515;
     content: "|";
     font-weight: 300;
     position: relative;
@@ -3344,6 +3344,7 @@ html.menu-opened body {
     position: relative;
     width: fit-content;
 	border-radius:.3rem;
+	border: rgb(180, 180, 180) solid 0.01px;
 }
 .search-location .form-control {
 	background: #fdfdfd url(../img/location.png) no-repeat 10px center;
@@ -3354,6 +3355,7 @@ html.menu-opened body {
 	border-radius: .3rem;
     position: relative;
     width: 490px;
+	border: rgb(180, 180, 180) solid 0.01px;
 }
 .search-info .form-control {
 	background: #fdfdfd url(../img/search.png) no-repeat 10px center;
@@ -3423,16 +3425,16 @@ html.menu-opened body {
 .banner-wrapper .banner-header {
 	margin-bottom: 30px;
 	
-	padding-top: 9rem !important;
+	padding-top: 5rem !important;
 }
 .banner-wrapper .banner-header h1 {
 	font-size: 2.566rem !important;
-	color: #fdfdfd;
+	color: #151515;
 	font-weight: 200 !important;
 }
 .banner-wrapper .banner-header p {
 	font-size: 1.424rem !important;
-	color: #fdfdfd;
+	color: #151515;
 	margin-bottom: 0;
 	font-weight: 700 !important;
 }
@@ -4232,10 +4234,10 @@ html.menu-opened body {
 }
 .pop-box .body-section h3 {
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 20px;
 }
 .pop-box .body-section p {
-	color: #E74E84;
+	color: #ff8a8e;
 	font-weight: 500;
 }
 .pop-box .body-section .book-btn {
@@ -4266,7 +4268,7 @@ html.menu-opened body {
 }
 
 .section-header-three h2 {
-	color: #2868C8;
+	color: #10613f;
 	font-weight: 700;
 	font-size: 30px;
 	position: relative;
@@ -4301,7 +4303,7 @@ html.menu-opened body {
     margin: 15px auto 0;
 }
 .clinic-specialities .section-header h2 {
-	color: #2868C8;
+	color: #10613f;
 	font-weight: 700;
 	font-size: 30px;
 }
@@ -4345,7 +4347,7 @@ html.menu-opened body {
 .special-box .special-footer .doc-count {
 	font-size: 14px;
 	font-weight: 700;
-	color: #E74E84;
+	color: #ff8a8e;
 }
 .special-box .special-footer .doc-count span,.special-box .special-footer .clin-count span {
 	color: #000000;
@@ -4360,14 +4362,14 @@ html.menu-opened body {
 	background-color: #fdfdfd;
     padding: 10px 15px;
     min-width: 120px;
-    color: #E74E84;
+    color: #ff8a8e;
     border-radius: 30px;
     font-size: 14px;
     font-weight: 600;
 	display: none;
 }
 .special-box .spc-book i {
-	background-color: #E74E84;
+	background-color: #ff8a8e;
     color: #fdfdfd;
     border-radius: 50%;
     width: 12px;
@@ -4439,7 +4441,7 @@ html.menu-opened body {
 .brower-box p {
 	font-size: 14px;
 	font-weight: 500;
-	color: #E74E84;
+	color: #ff8a8e;
 	margin: 0;
 }
 .brower-box p span {
@@ -4543,7 +4545,7 @@ html.menu-opened body {
     position: absolute;
     top: 10px;
     right: 20px;
-    background: #E74E84;
+    background: #ff8a8e;
     border-radius: 50%;
     color: #fdfdfd;
     font-weight: 700;
@@ -4558,7 +4560,7 @@ html.menu-opened body {
 	font-size: 12px;
 }
 .doctors-body .inner-section > span {
-	color: #E74E84;
+	color: #ff8a8e;
 	font-size: 14px;
 }
 .book-best-doctors .doctors-body {
@@ -4583,7 +4585,7 @@ html.menu-opened body {
 	font-weight: 700;
 }
 .book-best-doctors .doctors-body h4 {
-	color: #22396B;
+	color: #151515;
 	text-transform: uppercase;
 	font-size: 20px;
 	margin-bottom: 5px;
@@ -4602,7 +4604,7 @@ html.menu-opened body {
 	margin-bottom: 15px;
 }
 .book-best-doctors .loc-details img {
-	color: #22396B;
+	color: #151515;
 	width: auto;
     margin-right: 8px;
 }
@@ -4620,7 +4622,7 @@ html.menu-opened body {
 	color: #2264C5;
 }
 .book-best-doctors .amt-txt {
-	color: #E74E84;
+	color: #151515;
 	font-size: 18px;
 	font-weight: 600;
 }
@@ -5208,7 +5210,7 @@ body .multi-optn {
     background: rgba(255, 255, 255, 0.87);
 }
 .app-form h2 {
-	color: #E74E84;
+	color: #2b00a0;
 	font-size: 34px;
 	margin-bottom: 30px;
 }
@@ -5299,10 +5301,10 @@ body .multi-optn {
     font-size: 30px;
     margin-bottom: 0;
     font-weight: 700;
-	color: #22396B;
+	color: #151515;
 }
 .sec-header .bottom-border {
-    border-top: 3px solid #E74E84;
+    border-top: 3px solid #ff8a8e;
     width: 75px;
     margin: 0 auto;
     margin-top: 20px;
@@ -5328,7 +5330,6 @@ body .multi-optn {
 	width: 35px;
     height: 35px;
     border-radius: 5px 12px 5px 12px;
-    background-color: #E74E84;
     transform: translateX(0%) rotate(-45deg);
     -webkit-transform: translateX(0%) rotate(-45deg );
     -ms-transform: translateX(0%) rotate(-45deg);
@@ -5350,10 +5351,10 @@ body .multi-optn {
     font-size: 10px;
     line-height: 1;
     opacity: .75;
-    color: #fdfdfd;
+    color: #151515;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    border: solid #fdfdfd;
+    border: solid #151515;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
@@ -5457,7 +5458,7 @@ body .multi-optn {
 	display: none;
 }
 .clinic-slider .brower-box:hover a.arrow {
-	background-color: #2868C8;
+	background-color: #10613f;
 }
 .clinic-slider .brower-box:hover h4, .clinic-slider .brower-box:hover p, .clinic-slider .brower-box:hover p span {
 	color: #fdfdfd;
@@ -5627,7 +5628,7 @@ body .multi-optn {
     border-radius: 10px 10px 0px 0px;
 }
 .book-slider .pro-content .amt {
-	background-color: #e74e84;
+	background-color: #ff8a8e;
     padding: 3px 8px;
     border-radius: 30px;
     color: #fdfdfd;
@@ -5641,7 +5642,7 @@ body .multi-optn {
     -webkit-transition: all 0.3s ease;
 }
 .book-slider .pro-content .star {
-	background-color: #2264c5;
+	background-color: #d1454a;
     width: 30px;
     height: 30px;
     display: flex;
@@ -5659,7 +5660,7 @@ body .multi-optn {
 .book-slider .provider-info h3 a {
 	font-size: 22px;
 	font-weight: 700;
-	color: #22396B;
+	color: #151515;
 }
 .book-slider .profile-widget .provider-info {
 	background-color: #fdfdfd;
@@ -5683,7 +5684,7 @@ body .multi-optn {
     -webkit-transition: all 0.3s ease;
 }
 .book-slider .provider-info h5 {
-	color: #E74E84;
+	color: #ff8a8e;
 	font-size: 15px;
 	font-weight: 600;
 	float: left;
@@ -5692,14 +5693,14 @@ body .multi-optn {
 	position: absolute;
     width: 40px;
     height: 40px;
-    background-color: #2868C8;
+    border:1px solid #10613f;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     top: 15px;
     right: 15px;
-    color: #fdfdfd;
+    color: #10613f;
 }
 .book-slider .provider-info .rating {
 	display: none;
@@ -5856,7 +5857,7 @@ body .multi-optn {
     font-size: 10px;
     line-height: 1;
     opacity: .75;
-    color: #1860CA;
+    color: #fdfdfd;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     border: solid #1860CA;
@@ -5913,8 +5914,8 @@ body .multi-optn {
 	font-weight: 600;
 }
 .home-search-section .doctor-form .banner-btn {
-	background: #E74E84;
-	border: 1px solid #E74E84;
+	background: #ff8a8e;
+	border: 1px solid #ff8a8e;
 	box-shadow: 10px 4px 14px rgba(247, 247, 247, 0.25);
 	border-radius: 5px;
 }
@@ -6040,7 +6041,7 @@ body .multi-optn {
 }
 .clinic-wrap .wrapper-overlay h3 {
 	font-size: 22px;
-	color: #E74E84;
+	color: #ff8a8e;
 	font-weight: 700;
 	margin-bottom: 30px;
 }
@@ -6051,7 +6052,7 @@ body .multi-optn {
 }
 .clinic-wrap .wrapper-overlay p {
 	font-weight: 700;
-	color: #E74E84;
+	color: #ff8a8e;
 	font-size: 14px;
 }
 .clinic-wrap .wrapper-overlay p.blue {
@@ -8984,6 +8985,7 @@ body .multi-optn {
 
 .navbar {
 	padding: 0 10rem;
+	box-shadow: 3px 3px 2px rgb(212, 212, 212, .6);
 }
 
 .fixed-header .navbar {
@@ -10459,6 +10461,7 @@ ul.benifits-col li i{
 		width: auto;
 		border-radius: 0 .3rem .3rem .3rem;
 		margin-bottom: 4rem;
+		box-shadow: 3px 3px 5px grey;
 		background-color: rgba(255, 255, 255, 0.5);
 	}
 	.avatar-xxl .border {
@@ -10556,7 +10559,7 @@ ul.benifits-col li i{
 	}
 	.header-four .main-nav .has-submenu.active > a {
 		color: #fdfdfd;
-    	border-top: 3px solid #E74E84;
+    	border-top: 3px solid #ff8a8e;
 	}
 	.main-nav .has-submenu.active .submenu li.active > a {
 		color: #2f8963;
@@ -11704,7 +11707,7 @@ ul.benifits-col li i{
 		bottom: 0;
 	}
 	.patient-select {
-		background: #2264c5 url(../img/slider/blue-bg.png);		
+		background: #d1454a url(../img/slider/blue-bg.png);		
 		padding: 30px 0 0;
 	}
 	.select-box h2 {
