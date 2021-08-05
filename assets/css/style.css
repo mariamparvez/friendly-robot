@@ -122,7 +122,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1rem;
 }
 .h6, h6 {
-    font-size: 0.875rem;
+    font-size: 0.8rem;
+	margin: 1rem;
 }
 
 a {
@@ -2365,7 +2366,7 @@ html.menu-opened body {
 -----------------------*/
 
 .footer {
-	background-image: linear-gradient(to right, #e1ebe7 , #afc5bb);
+	background-image: linear-gradient(to right, #e3e9e6 , #cadad2);
 }
 .footer .footer-top {
 	padding: 40px 0;
