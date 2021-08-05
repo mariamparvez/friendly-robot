@@ -399,6 +399,22 @@ button.bg-danger:hover {
 .bg-white {
 	background-color: #fdfdfd;
 }
+
+#app {
+	padding: .5rem;
+	border: none;
+	border-radius: .5rem;
+}
+
+#app-num {
+	padding: .5rem;
+	border: none;
+	border-radius: .5rem;
+	color: #fdfdfd;
+	font-weight: 400;
+	background-color: goldenrod;
+}
+
 .bg-purple,
 .badge-purple {
     background-color: #9368e9 !important;
