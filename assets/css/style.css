@@ -3344,7 +3344,7 @@ html.menu-opened body {
     flex: 0 0 240px;
     margin-right: 12px;
     position: relative;
-    width: 240px;
+    width: auto;
 	border-radius:.3rem;
 }
 .search-location .form-control {
@@ -3356,7 +3356,7 @@ html.menu-opened body {
     margin-right: 12px;
 	border-radius: .3rem;
     position: relative;
-    width: 490px;
+    width: auto;
 }
 .search-info .form-control {
 	background: #fdfdfd url(../img/search.png) no-repeat 10px center;
@@ -3424,6 +3424,7 @@ html.menu-opened body {
 }
 .banner-wrapper .banner-header {
 	margin-bottom: 30px;
+	padding-top: 9rem !important;
 }
 .banner-wrapper .banner-header h1 {
 	font-size: 2.566rem !important;
@@ -11250,7 +11251,7 @@ ul.benifits-col li i{
 	.search-box .search-location {
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
-		width: 100%;
+		width: auto;
 	}
 	.search-box .search-info {
 		-ms-flex: 0 0 100%;
@@ -11261,7 +11262,7 @@ ul.benifits-col li i{
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
 		min-height: 46px;
-		width: 100%;
+		width: fit-content;
 	}
 	.search-box .search-btn span {
 		display: inline-block;
@@ -11584,7 +11585,7 @@ ul.benifits-col li i{
 	}
 	.doctor-category {
 		padding: 40px 0 10px;
-		margin-top: -110px;
+		margin-top: 2rem;
 	}
 	.clinic-specialities {
 		padding: 40px 0;
