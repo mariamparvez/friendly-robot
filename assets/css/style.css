@@ -1730,7 +1730,7 @@ button.bg-danger:hover {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	z-index: 99;
+	z-index: -1;
 	background-color: rgba(13, 13, 13, 0.33);
 }
 .pharmacy-home-slider .banner-wrapper {
@@ -1743,8 +1743,7 @@ button.bg-danger:hover {
 	padding: 0 15px;
 	z-index: 999;
 }
-.pharmacy-home-slider .banner-wrapper .banner-header h1,
-.pharmacy-home-slider .banner-wrapper .banner-header p,
+.pharmacy-home-slider, .pharmacy-home-slider,
 .pharmacy-home-slider .search-box .form-text {
 	color: #151515;
 }
@@ -2195,15 +2194,6 @@ button.bg-danger:hover {
 .top-icon {
 	margin-right: 5px;
 }
-.search-btns{
-	padding: .5rem;
-	border: none;
-	margin: 0 .5rem 0 0;
-	color: #151515;
-	font-weight: bold;
-	background-color: rgba(255, 255, 255, 0.5);
-	border-radius: .3rem .3rem 0 0;
-}
 .search-box-1{
 	background: #2f8963;
     padding: 40px 20px;
@@ -2224,11 +2214,11 @@ button.bg-danger:hover {
     margin-left: auto;
 }
 .header-trans .header-contact-img i {
-    color: #1C5B90;
+    color: #10613f;
     font-size: 14px;
 }
 .header-trans .header-contact-detail p.contact-info-header {
-    color: #1C5B90;
+    color: #10613f;
 }
 .header-trans .header-navbar-rht li a.header-login {
     text-align: center;
@@ -3296,16 +3286,6 @@ html.menu-opened body {
 .banner-wrapper .banner-header {
 	margin-bottom: 30px;
 }
-.banner-wrapper .banner-header h1 {
-    margin-bottom: 10px;
-	font-size: 40px;
-	font-weight: 600;
-}
-.banner-wrapper .banner-header p {
-	color: #757575;
-	font-size: 20px;
-	margin-bottom: 0;
-}
 .search-box form {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -3325,23 +3305,38 @@ html.menu-opened body {
 	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: .3rem .3rem 0 0;
 }
-
-.s-btns {
-	display: flex;
-	align-items: flex-end;
-}
-.search-big {
-	padding: 1rem;
+.search-btns2{
+	padding: .5rem;
 	border: none;
 	margin: 0 .5rem 0 0;
 	color: #151515;
 	font-weight: bold;
+	background-color: rgba(255, 122, 122, 0.5);
+	border-radius: .3rem .3rem 0 0;
+}
+
+.search-btns3 {
+	padding: 1rem;
+	border: none;
+	margin: 0 .5rem 0 0;
+	color: #151515;
+	font-weight: 500;
 	background-color: rgba(138, 165, 255, 0.5);
 	border-radius: .3rem .3rem 0 0;
 }
+
+.search-btns:hover, .search-btns2:hover, .search-btns3:hover {
+	background-color: rgb(16, 97, 63, .6);
+	color: #fdfdfd;
+}
+.s-btns {
+	display: flex;
+	align-items: flex-end;
+}
+
 .form-design {
 	padding: 1rem;
-	border-radius: 0 0 .3rem .3rem;
+	border-radius: 0 .3rem .3rem .3rem;
 	background-color: rgba(255, 255, 255, 0.5);
 }
 .search-box .search-location .form-control{
@@ -3431,14 +3426,13 @@ html.menu-opened body {
 	margin-bottom: 30px;
 }
 .banner-wrapper .banner-header h1 {
-    margin-bottom: 10px;
-	font-size: 40px;
-	font-weight: 600;
+	font-size: 2.566rem !important;
+	font-weight: 200 !important;
 }
 .banner-wrapper .banner-header p {
-	color: #757575;
-	font-size: 20px;
+	font-size: 1.424rem !important;
 	margin-bottom: 0;
+	font-weight: 700 !important;
 }
 .search-area {
     background: #fdfdfd;
@@ -4634,7 +4628,7 @@ html.menu-opened body {
 	font-size: 14px;
     padding: 6px 12px;
     color: #fdfdfd;
-    background-color: #1C71EF;
+    background-color: #151515;
     border-radius: 30px;
     width: 100px;
     text-align: center;
@@ -4692,7 +4686,7 @@ html.menu-opened body {
 .section-heading h2 {
 	font-weight: 700;
 	font-size: 26px;
-	color: #1C5B90;
+	color: #10613f;
 }
 .section-heading p {
 	font-size: 14px;
@@ -4761,7 +4755,7 @@ html.menu-opened body {
 	background: rgba(45, 226, 253, 0.9);
 }
 .clinic-item:hover .clinics-icon i {
-	color: #1C5B90;
+	color: #10613f;
 	background: #fdfdfd;
 }
 .clinic-item:hover .clinics-icon {
@@ -4786,10 +4780,10 @@ html.menu-opened body {
     z-index: -1;
 }
 .section-heading.bg-area h2 {
-	color: #fdfdfd;
+	color: #fff;
 }
 .section-heading.bg-area p {
-	color: #fdfdfd;
+	color: #fff;
 }
 .specialist-card {
 	background: #fdfdfd;
@@ -4803,7 +4797,7 @@ html.menu-opened body {
 	background: #E0F2FF;
 }
 .specialist-img {
-    background: #1B5D92;
+    background: #6abe9b;
     padding: 10px;
     height: 55px;
     width: 55px;
@@ -4861,10 +4855,10 @@ html.menu-opened body {
     font-size: 12px;
 }
 .doctors-body .rating i.filled {
-    color: #1C5B90;
+    color: #10613f;
 }
 .average-ratings {
-	background: #1C5B90;
+	background: #10613f;
     border-radius: 70px;
     color: #fdfdfd;
     padding: 1px 15px;
@@ -4876,7 +4870,7 @@ html.menu-opened body {
 	margin-bottom: .5rem;
 }
 .doctors-body p {
-	color: #204892;
+	color: #2f8963;
 	font-weight: 500;
 	margin-bottom: 0;
 	font-size: 12px;
@@ -4886,23 +4880,31 @@ html.menu-opened body {
 	color: #000000;
 }
 .doctors-body .location p i {
-	color: #1C5B90;
+	color: #10613f;
 }
 .doctors-body .view-btn {
-	background: #E8F6FF;
-    border: 1px solid #E8EEFF;
+    border: 1px solid #151515;
     box-sizing: border-box;
     border-radius: 30px;
-    color: rgba(41, 68, 129, 0.9);
+    color: #151515;
+	padding: 10px 0;
+}
+.doctors-body .view-btn:hover {
+    border: none;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #fdfdfd;
 	padding: 10px 0;
 }
 .doctors-body .book-btn {
-	background: #10613F;
 	border-radius: 30px;
 	padding: 10px 0;
+	color: #fdfdfd;
 	border: 0;
+	background-color: rgb(16, 97, 63, .8);
 }
 .doctors-body .book-btn:hover {
+	background-color: #10613F;
 	border: 0;
 }
 .doctors-body {
@@ -4927,7 +4929,7 @@ html.menu-opened body {
 	position: absolute;
     top: 10px;
     right: 10px;
-    background: #1B5D92;
+    background: #6abe9b;
     border-radius: 110px;
     padding: 5px 10px;
     color: #fdfdfd;
@@ -5018,7 +5020,7 @@ html.menu-opened body {
     padding: 15px;
 }
 .blogs-btn {
-	background: #1C5B90;
+	background: #10613f;
 	border-radius: 30px;
 	color: #fdfdfd;
 	padding: 8px 10px;
@@ -5045,7 +5047,7 @@ html.menu-opened body {
 	padding-top: 95px;
 }
 .banner-btn {
-    background: #1C5B90;
+    background: #10613f;
     border-radius: 130px;
     color: #fdfdfd;
     font-weight: 600;
@@ -5515,7 +5517,7 @@ body .multi-optn {
 	background-color: #fdfdfd;
 }
 .browse-widget:hover .arrows i {
-	color: #1C5B90;
+	color: #10613f;
 }
 .patient-select {
 	background: url(../img/slider/blue-bg.png);
@@ -5733,7 +5735,7 @@ body .multi-optn {
 }
 .book-slider .available-info li i {
     font-size: 14px;
-	color: #1C5B90;
+	color: #10613f;
 }
 .book-slider .available-info li {
 	font-size: 14px;
@@ -5742,10 +5744,9 @@ body .multi-optn {
 }
 .book-slider .content-info .view-btn,.book-slider .content-info .view-btn:hover {
 	background-color: #216EE1;
-	border: 1px solid #216EE1;
+	border: none;
 	border-radius: 30px;
 	padding: 7px;
-	border: none;
 	color: #fdfdfd;
 	font-size: 13px;
 	font-weight: 500;
@@ -5766,7 +5767,7 @@ body .multi-optn {
 	color: #fdfdfd;
 	font-weight: 700;
 	border-radius: 30px;
-	border: 1px solid #459f79;
+	border: none;
 	padding: 6px 20px;
 }
 .aval-features {
@@ -9789,7 +9790,7 @@ body .multi-optn {
     color: #fdfdfd;
     font-weight: 700;
     border-radius: 30px;
-    border: 1px solid #459f79;
+    border: none;
     padding: 6px 20px;
 }
 .blog-container .blog-wrapper .wrap-content .date-cart {
@@ -10841,9 +10842,6 @@ ul.benifits-col li i{
 		flex: 0 0 180px;
 		width: 180px;
 	}
-	.banner-wrapper .banner-header h1 {
-		font-size: 2.125rem;
-	}
 	.dct-border-rht {
 		border-bottom: 1px solid #f0f0f0;
 		border-right: 0;
@@ -11223,12 +11221,6 @@ ul.benifits-col li i{
 	}
 	.divider .carousel-inner {
 		height: 100%;
-	}
-	.banner-wrapper .banner-header h1 {
-		font-size: 2rem;
-	}
-	.banner-wrapper .banner-header p {
-		font-size: 1rem;
 	}
 	.section-header h2 {
 		font-size: 1.875rem;
@@ -11861,9 +11853,6 @@ ul.benifits-col li i{
 		width: 100%;
 		-ms-flex: none;
 		flex: none;
-	}
-	.banner-wrapper .banner-header h1 {
-		font-size: 28px;
 	}
 	.slick-next {
 		right: 0px;
