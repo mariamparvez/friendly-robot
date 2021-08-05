@@ -3336,15 +3336,16 @@ html.menu-opened body {
 
 .form-design {
 	padding: 1rem;
+	width: auto;
 	border-radius: 0 .3rem .3rem .3rem;
+	margin-bottom: 4rem;
 	background-color: rgba(255, 255, 255, 0.5);
 }
 .search-box .search-location .form-control{
     -ms-flex: 0 0 240px;
     flex: 0 0 240px;
-    margin-right: 12px;
     position: relative;
-    width: auto;
+    width: inherit;
 	border-radius:.3rem;
 }
 .search-location .form-control {
@@ -3353,10 +3354,9 @@ html.menu-opened body {
 .search-box .search-info .form-control {
     -ms-flex: 0 0 490px;
     flex: 0 0 490px;
-    margin-right: 12px;
 	border-radius: .3rem;
     position: relative;
-    width: auto;
+    width: inherit;
 }
 .search-info .form-control {
 	background: #fdfdfd url(../img/search.png) no-repeat 10px center;
@@ -3483,9 +3483,8 @@ html.menu-opened body {
 .search-box .search-location {
     -ms-flex: 0 0 240px;
     flex: 0 0 240px;
-    margin-right: 12px;
     position: relative;
-    width: 240px;
+    width: inherit;
 }
 .search-location .form-control {
 	background: #fdfdfd url(../img/location.png) no-repeat 10px center;
@@ -3493,9 +3492,8 @@ html.menu-opened body {
 .search-box .search-info {
     -ms-flex: 0 0 490px;
     flex: 0 0 490px;
-    margin-right: 12px;
     position: relative;
-    width: 490px;
+    width: inherit;
 }
 .search-info .form-control {
 	background: #fdfdfd url(../img/search.png) no-repeat 10px center;
