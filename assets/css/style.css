@@ -3301,7 +3301,7 @@ html.menu-opened body {
 	border: none;
 	margin: 0 .5rem 0 0;
 	color: #151515;
-	font-weight: bold;
+	font-weight: 500;
 	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: .3rem .3rem 0 0;
 }
@@ -3310,7 +3310,7 @@ html.menu-opened body {
 	border: none;
 	margin: 0 .5rem 0 0;
 	color: #151515;
-	font-weight: bold;
+	font-weight: 500;
 	background-color: rgba(255, 122, 122, 0.5);
 	border-radius: .3rem .3rem 0 0;
 }
