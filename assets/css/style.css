@@ -4655,7 +4655,7 @@ html.menu-opened body {
 	float: right;
 }
 .latest-blog {
-	background-color: #f4fcff;
+	background-image: linear-gradient(to right, #ebebeb , #f1fff8);
 	padding: 60px 0 30px;
 }
 .latest-blog .blog-wrap {
@@ -4683,11 +4683,11 @@ html.menu-opened body {
     color: #737373;
 }
 .latest-blog .blog-wrap .blog-wrap-body .blog-footer{
-	border-top: 1px solid #1b70ee;
+	border-top: 1px solid #151515;
     padding: 15px 0 0;
 }
 .latest-blog .blog-footer .read-txt, .latest-blog .blog-footer .cal-txt {
-	color: #1b70ee;
+	color: #ee571b;
     font-size: 14px;
     font-weight: 600;
 }
@@ -6794,7 +6794,7 @@ body .multi-optn {
 }
 .review-listing > ul li .comment .comment-body .meta-data span.comment-author {
     font-weight: 600;
-    color: #272b41;
+    color: #2d4127;
     text-transform: capitalize;
 }
 .review-listing > ul li .comment .comment-body .meta-data span.comment-date {
