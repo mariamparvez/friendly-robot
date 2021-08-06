@@ -402,6 +402,7 @@ button.bg-danger:hover {
 
 #app {
 	padding: .5rem;
+	width: 20rem;
 	border: none;
 	border-radius: .5rem;
 }
