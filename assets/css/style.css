@@ -3639,7 +3639,7 @@ html.menu-opened body {
 .speicality-img {
 	position: relative;
 	height: 150px;
-	box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
+	border: 2px #cecece solid;
 	border-radius: 100%;
 	width: 150px;
 	background: #fdfdfd;
