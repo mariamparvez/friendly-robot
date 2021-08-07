@@ -3317,7 +3317,7 @@ html.menu-opened body {
 	width: fit-content;
 	border-radius: 0 .3rem .3rem .3rem;
 	margin-bottom: 4rem;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgb(255, 255, 255, .9);
 }
 .search-btns{
 	padding: .5rem;
