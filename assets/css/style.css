@@ -3317,7 +3317,7 @@ html.menu-opened body {
 	margin: 0 .5rem 0 0;
 	color: #151515;
 	font-weight: 500;
-	background-color: rgba(229, 245, 138, 0.5);
+	background-color: rgba(224, 138, 245, 0.5);
 	border-radius: .3rem .3rem 0 0;
 }
 .search-btns2{
@@ -3342,7 +3342,6 @@ html.menu-opened body {
 
 .search-btns:hover, .search-btns2:hover, .search-btns3:hover {
 	background-color: rgb(16, 97, 63, .6);
-	color: #fdfdfd;
 }
 .s-btns {
 	display: flex;
