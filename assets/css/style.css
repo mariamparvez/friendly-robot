@@ -3256,7 +3256,7 @@ html.menu-opened body {
     background-size: 100% auto;
     position: relative;
     background-blend-mode: Darken;
-    padding: 80px 0;
+    padding: 2rem 0;
 }
 .section-search-1 { 
 	background: #f9f9f9 url(../img/slider-bg.jpg) no-repeat bottom center;
@@ -3888,7 +3888,7 @@ html.menu-opened body {
 }
 .section-features {
 	background-color: #fdfdfd;
-	padding: 80px 0;
+	padding: 3rem 0;
 }
 .feature-item img {
     border-radius: 100%;
@@ -3917,7 +3917,7 @@ html.menu-opened body {
 }
 .section-blogs {
     background-color: #f8f9fa;
-    padding: 80px 0;
+    padding: 2rem 0;
 }
 .view-all .btn {
     margin-top: 20px;
