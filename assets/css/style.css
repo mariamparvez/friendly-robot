@@ -1738,7 +1738,7 @@ button.bg-danger:hover {
 .pharmacy-home-slider .swiper-container{
 	position: relative;
 	padding: 0 !important;
-	height: 650px;
+	height: fit-content;
 	min-height: inherit;
 }
 .pharmacy-home-slider .swiper-container:before {
