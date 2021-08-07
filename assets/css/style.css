@@ -12177,6 +12177,7 @@ ul.benifits-col li i{
 .form-design {
 	box-shadow: 3px 3px 2px rgb(100, 100, 100, .4);
 	width: 90vw;
+	height: fit-content;
 	margin-bottom: 4rem;
 }
 	
@@ -12188,12 +12189,16 @@ ul.benifits-col li i{
 	width: inherit;
 }
 .banner-wrapper .banner-header h1 {
-	margin-top: 6rem;
+	margin-top: 3rem;
 }
 .pharmacy-home-slider img {
 	opacity: 0;
 }
 .pharmacy-home-slider {
 	background-image: linear-gradient(to right, #e4eeea , #d1e6dc);
+}
+.pharmacy-home-slider .swiper-container{
+	height: 40rem;
+	min-height: inherit;
 }
   }
