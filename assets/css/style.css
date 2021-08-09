@@ -4080,7 +4080,8 @@ html.menu-opened body {
     background-size: 100% auto;
     position: relative;
     background-blend-mode: Darken;
-    padding: 80px 0;
+    padding: 20rem 0;
+	margin-top: 10rem;
 }
 .banner-wrapper2 {
     margin: 0 auto;
@@ -5205,6 +5206,7 @@ body .multi-optn {
 }
 .pharmacy-home-slider .banner-wrapper.doc-form {
 	left: 35%;
+	padding: 20rem;
 }
 .side-dots .swiper-container {
     position: relative;
@@ -12175,14 +12177,44 @@ ul.benifits-col li i{
 
 @media only screen and (max-width: 600px) {
 .form-design {
-	box-shadow: 3px 3px 2px rgb(100, 100, 100, .4);
+	box-shadow: none;
 	width: 90vw;
 	height: fit-content;
 	margin-bottom: 4rem;
 }
-	
+
+.search-btns{
+	padding: 1rem;
+	margin-right: 0%;
+	width: 33%;
+}
+.search-btns2{
+	padding: 1rem;
+	width: 33%;
+	margin-right: 0%;
+
+}
+
+.search-btns3 {
+	padding: 1rem;
+	width: 36%;
+	margin-right: 0%;
+}
+
+.s-btns {
+	align-content: space-around;	
+} 
 .search-box .search-info .form-control {
     width: inherit;
+}
+
+.search-box .search-location .form-control {
+    width: inherit;
+}
+
+.search-box .search-btn .form-control .btn-primary {
+    width: inherit;
+	margin: 0;
 }
 
 .banner-wrapper .banner-header {
