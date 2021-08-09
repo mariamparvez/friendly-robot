@@ -2534,10 +2534,10 @@ a.wish_bt:hover:after {
 }
 /*-------- 2.4 Detail page  --------*/
 #breadcrumb {
-  background-color: #10613F;
+  background-color: #d6d6d6;
   padding: 25px 0;
   line-height: 1;
-  color: #fff;
+  color: #151515;
 }
 @media (max-width: 767px) {
   #breadcrumb {
@@ -2557,7 +2557,7 @@ a.wish_bt:hover:after {
   position: relative;
 }
 #breadcrumb ul li a {
-  color: #fff;
+  color: #474747;
 }
 #breadcrumb ul li a:hover {
   color: #D1454A;
