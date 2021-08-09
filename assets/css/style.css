@@ -2072,8 +2072,8 @@ button.bg-danger:hover {
 	-ms-transform: rotate(-135deg);
 	transform: rotate(-135deg);
 }
-.header-trans.header-five .main-menu-wrapper {
-    margin-left: 40px;
+.header-five .main-menu-wrapper {
+    .header-transmargin-left: 40px;
 }
 .blue-font > li > a{
 	color: #2A85D1;
