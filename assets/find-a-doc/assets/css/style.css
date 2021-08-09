@@ -1646,8 +1646,7 @@ iframe {
 }
 
 .main-menu {
-  background-color: #348F34;
-  float: left;
+  margin-right: 12rem;
 }
 
 .box_list {
