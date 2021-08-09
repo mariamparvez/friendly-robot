@@ -12184,7 +12184,7 @@ ul.benifits-col li i{
 }
 
 .search-btns{
-	padding: 1rem;
+	padding: 0;
 	margin-right: 0%;
 	width: 32%;
 	font-size: smaller;
@@ -12192,7 +12192,7 @@ ul.benifits-col li i{
 	border-right: rgb(16, 97, 63, .2) 1px solid;
 }
 .search-btns2{
-	padding: 1rem;
+	padding: 0;
 	font-size: smaller;
 	width: 32%;
 	background-color: #eeeee8;
@@ -12201,7 +12201,7 @@ ul.benifits-col li i{
 }
 
 .search-btns3 {
-	padding: .5rem;
+	padding: 0;
 	font-size: smaller;
 	width: 36%;
 	background-color: #eeeee8;
@@ -12218,7 +12218,9 @@ ul.benifits-col li i{
 }
 
 .s-btns {
-	align-content: space-around;	
+	align-content: space-around;
+	padding: 1rem;	
+	background-color: #eeeee8;
 } 
 .search-box .search-info .form-control {
     width: inherit;
