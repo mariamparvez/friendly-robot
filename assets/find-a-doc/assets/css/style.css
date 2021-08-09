@@ -1645,6 +1645,11 @@ iframe {
   border: 1px solid #151515;
 }
 
+.main-menu {
+  background-color: #348F34;
+  float: left;
+}
+
 .box_list {
   background-color: #fff;
   display: block;
