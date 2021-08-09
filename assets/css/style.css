@@ -3372,7 +3372,7 @@ html.menu-opened body {
     flex: 0 0 490px;
 	border-radius: .3rem;
     position: relative;
-    width: 490px;
+    width: inherit;
 	border: rgb(180, 180, 180) solid 0.01px;
 }
 .search-info .form-control {
