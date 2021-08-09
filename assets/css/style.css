@@ -12187,18 +12187,31 @@ ul.benifits-col li i{
 	padding: 1rem;
 	margin-right: 0%;
 	width: 33%;
+	background-color: #eeeee8;
+	border-right: rgb(16, 97, 63, .2) 1px solid;
 }
 .search-btns2{
 	padding: 1rem;
 	width: 33%;
+	background-color: #eeeee8;
 	margin-right: 0%;
-
+	border-right: rgb(16, 97, 63, .2) 1px solid;
 }
 
 .search-btns3 {
 	padding: 1rem;
 	width: 36%;
+	background-color: #eeeee8;
 	margin-right: 0%;
+}
+
+.banner-wrapper .banner-header h1 {
+	opacity: 0;
+}
+.banner-wrapper .banner-header p {
+	line-height: 1.5!important;
+	position: relative;
+	font-size: 1.424rem!important;
 }
 
 .s-btns {
@@ -12212,9 +12225,9 @@ ul.benifits-col li i{
     width: inherit;
 }
 
-.search-box .search-btn .form-control .btn-primary {
-    width: inherit;
-	margin: 0;
+ #search-btn{
+	margin-left: 0;
+	width: 100%;
 }
 
 .banner-wrapper .banner-header {
