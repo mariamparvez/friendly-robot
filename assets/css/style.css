@@ -12186,20 +12186,23 @@ ul.benifits-col li i{
 .search-btns{
 	padding: 1rem;
 	margin-right: 0%;
-	width: 33%;
+	width: 32%;
+	font-size: smaller;
 	background-color: #eeeee8;
 	border-right: rgb(16, 97, 63, .2) 1px solid;
 }
 .search-btns2{
 	padding: 1rem;
-	width: 33%;
+	font-size: smaller;
+	width: 32%;
 	background-color: #eeeee8;
 	margin-right: 0%;
 	border-right: rgb(16, 97, 63, .2) 1px solid;
 }
 
 .search-btns3 {
-	padding: 1rem;
+	padding: .5rem;
+	font-size: smaller;
 	width: 36%;
 	background-color: #eeeee8;
 	margin-right: 0%;
