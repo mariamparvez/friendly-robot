@@ -12210,6 +12210,9 @@ ul.benifits-col li i{
 
 .banner-wrapper .banner-header h1 {
 	opacity: 0;
+		font-size: 0;
+		width: 0;
+		height: 0;
 }
 .banner-wrapper .banner-header p {
 	line-height: 1.5!important;
@@ -12286,6 +12289,9 @@ ul.benifits-col li i{
 	
 	.banner-wrapper .banner-header h1 {
 		opacity: 0;
+		font-size: 0;
+		width: 0;
+		height: 0;
 	}
 	.banner-wrapper .banner-header p {
 		line-height: 1.5!important;
