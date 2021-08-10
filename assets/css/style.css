@@ -4165,7 +4165,7 @@ html.menu-opened body {
 -----------------------*/
 
 .footer {
-	background-image: linear-gradient(to right, #e3e9e6 , #cadad2);
+	background-image: linear-gradient(to right, #f4f4ff , #E0E2FC);
 }
 .footer .footer-top {
 	padding: 40px 0;
@@ -7713,7 +7713,7 @@ body .multi-optn {
     -webkit-transition: all 0.3s ease;
 }
 .book-slider .pro-content .star {
-	background-color: #d1454a;
+	background-color: #373B7A;
     width: 30px;
     height: 30px;
     display: flex;
@@ -14393,7 +14393,7 @@ ul.benifits-col li i{
 		bottom: 0;
 	}
 	.patient-select {
-		background: #d1454a url(../img/slider/blue-bg.png);		
+		background: #373B7A url(../img/slider/blue-bg.png);		
 		padding: 30px 0 0;
 	}
 	.select-box h2 {

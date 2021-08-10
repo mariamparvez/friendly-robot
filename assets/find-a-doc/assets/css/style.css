@@ -951,7 +951,7 @@ a:hover {
   display: none;
 }
 #custom-search-input ul li input[type="radio"]:checked + label, #custom-search-input ul li input[type="radio"]:checked + label:hover {
-  background-color: #D1454A;
+  background-color: #373B7A;
   color: #fff;
 }
 #custom-search-input ul li input[type="radio"]:hover + label {
@@ -1003,7 +1003,7 @@ a:hover {
   -moz-border-radius: 0 3px 3px 0;
   -ms-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
-  background-color: #D1454A;
+  background-color: #373B7A;
 }
 #custom-search-input input[type='submit']:hover {
   border: 1px solid #151515;
@@ -1012,7 +1012,7 @@ a:hover {
   #custom-search-input input[type='submit'] {
     /* For less than 575px */
     text-indent: -999px;
-    background: #D1454A url(../img/search.svg) no-repeat center center;
+    background: #373B7A url(../img/search.svg) no-repeat center center;
   }
 }
 
@@ -1627,7 +1627,7 @@ iframe {
   -moz-border-radius: 0 3px 3px 0;
   -ms-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
-  background-color: #D1454A;
+  background-color: #373B7A;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2527,7 +2527,7 @@ a.wish_bt:hover:after {
 }
 /*-------- 2.4 Detail page  --------*/
 #breadcrumb {
-  background-color: #d6d6d6;
+  background-image: linear-gradient(to right, #fafbff , #F1F2FF);
   padding: 25px 0;
   line-height: 1;
   color: #151515;
@@ -2553,7 +2553,7 @@ a.wish_bt:hover:after {
   color: #474747;
 }
 #breadcrumb ul li a:hover {
-  color: #D1454A;
+  color: #373B7A;
 }
 #breadcrumb ul li:after {
   content: "\e9ee";
@@ -2727,7 +2727,7 @@ ul.list_edu li strong {
   margin-bottom: 10px;
 }
 .reviews-container .progress-bar {
-  background-color: #D1454A;
+  background-color: #373B7A;
 }
 .reviews-container .review-box {
   position: relative;
@@ -3019,7 +3019,7 @@ label.css-label strong {
 }
 .box_profile ul.statistic li {
   display: inline-block;
-  background-color: #D1454A;
+  background-color: #373B7A;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -3089,7 +3089,7 @@ label.css-label strong {
 }
 .profile ul.statistic li {
   display: inline-block;
-  background-color: #D1454A;
+  background-color: #373B7A;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -3209,7 +3209,7 @@ label.css-label strong {
   }
 }
 #secondary_nav ul li a {
-  color: #D1454A;
+  color: #373B7A;
 }
 #secondary_nav ul li a:hover {
   color: #fff;
@@ -3503,7 +3503,7 @@ a.social_bt.linkedin:before {
   font-size: 46px;
   font-size: 2.875rem;
   margin-bottom: 10px;
-  color: #D1454A;
+  color: #373B7A;
   position: absolute;
   left: 0;
   top: 0;
@@ -3579,7 +3579,7 @@ a.social_bt.linkedin:before {
   -moz-border-radius: 0 3px 3px 0;
   -ms-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
-  background-color: #D1454A;
+  background-color: #373B7A;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -4238,7 +4238,7 @@ input[type=file]::-webkit-file-upload-button, input[type=file].invalid::-webkit-
   border: none;
   color: #fff;
   width: 180px;
-  background: #D1454A;
+  background: #373B7A;
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -4767,7 +4767,7 @@ ul.bullets li:before {
 }
 .box_badges ul li {
   display: inline-block;
-  background-color: #D1454A;
+  background-color: #373B7A;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -4915,11 +4915,11 @@ ul.bullets li:before {
   }
 }
 #cookie-bar .cb-enable {
-  background: #D1454A;
+  background: #373B7A;
 }
 #cookie-bar .cb-enable:hover {
   background: #fff;
-  color: #D1454A;
+  color: #373B7A;
 }
 #cookie-bar .cb-disable {
   background: #990000;
@@ -5101,16 +5101,16 @@ ul#cat_nav li:last-child a:hover, ul#cat_nav li:last-child a#active, ul#cat_nav 
 	display: none;
 }
 
-#visit-book {
+#visit-book a{
   font-size:larger;
   font-weight: 500;
   width: 100%;
   background-color: #373B7A;
-  padding: 1rem;
-  border-radius: .2rem;
+  padding: .5rem 5rem;
+  border-radius: 2rem;
   cursor: pointer;
   color: #fdfdfd;
 }
- #visit-book:hover{
-  background-image: linear-gradient(108deg, #373B7A 60%, #666dcf, #81CBFA);
+ #visit-book:hover a{
+  background-image: linear-gradient(155deg, #373B7A 60%, #666dcf, #81CBFA);
 }
