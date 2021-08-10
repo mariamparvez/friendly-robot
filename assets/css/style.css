@@ -2027,7 +2027,7 @@ button.bg-danger:hover {
 	border-radius: 0 0 5px 5px;
 }
 .header-navbar-rht li a.header-login:hover {
-    background-color: #10613f;
+    background-color: #373B7A;
     color: #fdfdfd;
 }
 .header-navbar-rht li .dropdown-menu a:hover {
@@ -2232,11 +2232,11 @@ button.bg-danger:hover {
     margin-left: auto;
 }
 .header-trans .header-contact-img i {
-    color: #10613f;
+    color: #373B7A;
     font-size: 14px;
 }
 .header-trans .header-contact-detail p.contact-info-header {
-    color: #10613f;
+    color: #373B7A;
 }
 .header-trans .header-navbar-rht li a.header-login {
     text-align: center;
@@ -3852,9 +3852,9 @@ html.menu-opened body {
 	padding: 6px;
 }
 .book-btn:hover, .book-btn:focus {
-	background-color: #10613f;
+	background-color: #373B7A !important;
 	border-color: none;
-	color: #fdfdfd;
+	color: #fdfdfd ;
 }
 .section-doctor .profile-widget {
     box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
@@ -4286,7 +4286,7 @@ html.menu-opened body {
 }
 
 .section-header-three h2 {
-	color: #10613f;
+	color: #373B7A;
 	font-weight: 700;
 	font-size: 30px;
 	position: relative;
@@ -4321,7 +4321,7 @@ html.menu-opened body {
     margin: 15px auto 0;
 }
 .clinic-specialities .section-header h2 {
-	color: #10613f;
+	color: #373B7A;
 	font-weight: 700;
 	font-size: 30px;
 }
@@ -4706,7 +4706,7 @@ html.menu-opened body {
 .section-heading h2 {
 	font-weight: 700;
 	font-size: 26px;
-	color: #10613f;
+	color: #373B7A;
 }
 .section-heading p {
 	font-size: 14px;
@@ -4756,7 +4756,7 @@ html.menu-opened body {
     width: 35px;
     text-align: center;
     line-height: 35px;
-    background: #10613F;
+    background: #373B7A;
     color: #fdfdfd;
 	margin: auto;
     display: block;
@@ -4775,7 +4775,7 @@ html.menu-opened body {
 	background: rgba(45, 226, 253, 0.9);
 }
 .clinic-item:hover .clinics-icon i {
-	color: #10613f;
+	color: #373B7A;
 	background: #fdfdfd;
 }
 .clinic-item:hover .clinics-icon {
@@ -4830,7 +4830,7 @@ html.menu-opened body {
 }
 
 .specialist-card:hover .specialist-img {
-    background: #10613F;
+    background: #373B7A;
 }
 .specialist-info h4 {
 	font-weight: 600;
@@ -4859,7 +4859,7 @@ html.menu-opened body {
     transition:all .3s ease 0s;
 }
 .specialist-card:hover .specialist-nav i {
-	background: #10613F;
+	background: #373B7A;
 	color: #fdfdfd;
 }
 .specialities-section {
@@ -4875,10 +4875,10 @@ html.menu-opened body {
     font-size: 12px;
 }
 .doctors-body .rating i.filled {
-    color: #10613f;
+    color: #373B7A;
 }
 .average-ratings {
-	background: #10613f;
+	background: #373B7A;
     border-radius: 70px;
     color: #fdfdfd;
     padding: 1px 15px;
@@ -4900,7 +4900,7 @@ html.menu-opened body {
 	color: #000000;
 }
 .doctors-body .location p i {
-	color: #10613f;
+	color: #373B7A;
 }
 .doctors-body .view-btn {
     border: 1px solid #151515;
@@ -4924,7 +4924,7 @@ html.menu-opened body {
 	background-color: rgb(16, 97, 63, .8);
 }
 .doctors-body .book-btn:hover {
-	background-color: #10613F;
+	background-color: #373B7A;
 	border: 0;
 }
 .doctors-body {
@@ -5040,7 +5040,7 @@ html.menu-opened body {
     padding: 15px;
 }
 .blogs-btn {
-	background: #10613f;
+	background: #373B7A;
 	border-radius: 30px;
 	color: #fdfdfd;
 	padding: 8px 10px;
@@ -5067,7 +5067,7 @@ html.menu-opened body {
 	padding-top: 95px;
 }
 .banner-btn {
-    background: #10613f;
+    background: #373B7A;
     border-radius: 130px;
     color: #fdfdfd;
     font-weight: 600;
@@ -5076,7 +5076,7 @@ html.menu-opened body {
 	width: 100%;
 }
 .banner-btn:hover {
-    background: #10613F;
+    background: #373B7A;
     color: #fdfdfd;
 }
 .doctor-search {
@@ -5092,7 +5092,7 @@ html.menu-opened body {
 .slide-nav-4 button.owl-prev  {
 	width: 34px;
 	height: 34px;
-	background: #10613F;
+	background: #373B7A;
 	text-shadow: none;
 	top: 4px;
 	cursor: pointer;
@@ -5476,7 +5476,7 @@ body .multi-optn {
 	display: none;
 }
 .clinic-slider .brower-box:hover a.arrow {
-	background-color: #10613f;
+	background-color: #373B7A;
 }
 .clinic-slider .brower-box:hover h4, .clinic-slider .brower-box:hover p, .clinic-slider .brower-box:hover p span {
 	color: #fdfdfd;
@@ -5536,7 +5536,7 @@ body .multi-optn {
 	background-color: #fdfdfd;
 }
 .browse-widget:hover .arrows i {
-	color: #10613f;
+	color: #373B7A;
 }
 .patient-select {
 	background: url(../img/slider/blue-bg.png);
@@ -5711,14 +5711,14 @@ body .multi-optn {
 	position: absolute;
     width: 40px;
     height: 40px;
-    border:1px solid #10613f;
+    border:1px solid #373B7A;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     top: 15px;
     right: 15px;
-    color: #10613f;
+    color: #373B7A;
 }
 .book-slider .provider-info .rating {
 	display: none;
@@ -5754,7 +5754,7 @@ body .multi-optn {
 }
 .book-slider .available-info li i {
     font-size: 14px;
-	color: #10613f;
+	color: #373B7A;
 }
 .book-slider .available-info li {
 	font-size: 14px;
@@ -5771,8 +5771,8 @@ body .multi-optn {
 	font-weight: 500;
 }
 .book-slider .content-info .book-btn, .book-slider .content-info .book-btn:hover {
-	background-color: #10613F;
-	border: 1px solid #10613F;
+	background-color: #373B7A;
+	border: 1px solid #373B7A;
 	border-radius: 30px;
 	padding: 7px;
 	border: none;
@@ -5790,7 +5790,7 @@ body .multi-optn {
 	padding: 6px 20px;
 }
 .aval-features {
-	background-color: #10613f;
+	background-color: #373B7A;
 }
 .aval-features .feature {
 	background: url(../img/slider/feature-img.jpg);
@@ -5815,7 +5815,7 @@ body .multi-optn {
 	margin-bottom: 20px;
 }
 .aval-features .feature .info-box a {
-	background: #10613F;
+	background: #373B7A;
 	border-radius: 30px;
 	width: 120px;
 	color: #fdfdfd;
@@ -6203,7 +6203,7 @@ body .multi-optn {
 -----------------------*/
 
 .breadcrumb-bar {
-    background-color: #10613f;
+    background-color: #373B7A;
     padding: 15px 0;
 }
 .breadcrumb-bar .breadcrumb-title {
@@ -10778,7 +10778,7 @@ ul.benifits-col li i{
 		z-index: 1060;
 		transform: translateX(-260px);
 		transition: all 0.4s;
-		background-color: #10613f;
+		background-color: #373B7A;
 	}
 	.menu-header {
 		display: -webkit-box;
