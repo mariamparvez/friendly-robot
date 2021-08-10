@@ -5077,5 +5077,32 @@ ul#cat_nav li:last-child a:hover, ul#cat_nav li:last-child a#active, ul#cat_nav 
   font-size: 18px;
   font-size: 1.125rem;
   font-weight: normal;
-  floaborder: 1px solid #151515;
+  border: 1px solid #151515;
+}
+
+.doc-department {
+  color: #459f79;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.doc-department img {
+  width: 19px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.clinic-slider .brower-box .img-fluid.hover {
+	display: none;
+}
+.clinic-slider .brower-box .arrow i {
+	color: #fdfdfd;
+}
+.clinic-slider .brower-box:hover a {
+	background-color: #fdfdfd;
+}
+.clinic-slider .brower-box:hover .img-fluid.hover {
+	display: block;
+}
+.clinic-slider .brower-box:hover .img-fluid {
+	display: none;
 }
