@@ -5327,6 +5327,7 @@ html.menu-opened body {
     -ms-flex: 0 0 46px;
     flex: 0 0 46px;
     height: 46px;
+	background-color: #373B7A;
 	margin: 0 auto 0 .5rem;
 }
 .search-box .search-btn span {
