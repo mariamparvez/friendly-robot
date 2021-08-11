@@ -4166,7 +4166,7 @@ html.menu-opened body {
 -----------------------*/
 
 .footer {
-	background-image: linear-gradient(to right, #f4f4ff , #E0E2FC);
+	background-image:linear-gradient(to right, #fbfdff , #E6EFF9);
 }
 .footer .footer-top {
 	padding: 40px 0;
@@ -4270,61 +4270,7 @@ html.menu-opened body {
 	font-size: 15px;
 }
 .footer .footer-bottom .copyright-text p a {
-	color: #48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-487bc7
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792;
+	color: #48c792;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
