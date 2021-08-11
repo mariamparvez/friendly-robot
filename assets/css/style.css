@@ -230,7 +230,7 @@ input[type=password] {
 	min-height: 38px;
 }
 .container-fluid {
-	padding-left: 180px;
+	padding-left: 30px;
 	padding-right: 30px;
 }
 .form-control::-webkit-input-placeholder {
@@ -621,6 +621,7 @@ button.bg-danger:hover {
 	width: 16rem;
 	border: none;
 	border-radius: .5rem;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
 }
 
 #app-num {
