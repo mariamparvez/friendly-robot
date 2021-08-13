@@ -4803,85 +4803,6 @@ html.menu-opened body {
 .increment-decrement .input-groups input[type="button"].button-plus {
 	float: right;
 }
-.country-select {
-	position: relative;
-}
-.country-select .select-col {
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-}
-.country-select .select-col .flagstrap {
-	height: 100%;
-}
-.country-select .select-col .btn-info.dropdown-toggle {
-	border: 0;
-	color: #5057af;
-	border-radius: 10px 0px 0px 10px;
-	background-color: #fdfdfd;
-	height: 100%;
-	font-size: 0;
-	width: 79px;
-	padding: 0 12px;
-	text-align: left;
-}
-.country-select .select-col .btn-info.dropdown-toggle:after {
-	background-image: url(../../assets/img/icons/down-arrow-gray-dark.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	width: 14px;
-	height: 7px;
-	border: 0;
-	position: absolute;
-	top: 50%;
-	right: 10px;
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-}
-.country-select .select-col .dropdown-menu {
-	font-size: 0;
-	width: 79px;
-	min-width: inherit;
-	margin-top: 0;
-	padding: 0;
-	border-radius: 10px;
-}
-.country-select .select-col .dropdown-menu li {
-	margin: 14px 13px;
-}
-.country-select .select-col .dropdown-menu li:first-child {
-	display: none;
-}
-.country-select .select-col .dropdown-menu li a {
-	display: inline-block;
-	cursor: pointer;
-}
-.country-select .select-col .flagstrap-icon.flagstrap-in,
-.country-select .select-col .flagstrap-icon.flagstrap-ng,
-.country-select .select-col .flagstrap-icon.flagstrap-gb,
-.country-select .select-col .flagstrap-icon.flagstrap-us {
-	background-image: url(../../assets/img/flag/india.png);
-	background-position: center;
-	width: 33px;
-	height: 22px;
-	background-size: cover;
-	border-radius: 4px;
-}
-.country-select .select-col .flagstrap-icon.flagstrap-ng {
-	background-image: url(../../assets/img/flag/ng.png);
-}
-.country-select .select-col .flagstrap-icon.flagstrap-gb {
-	background-image: url(../../assets/img/flag/gb.png);
-}
-.country-select .select-col .flagstrap-icon.flagstrap-us {
-	background-image: url(../../assets/img/flag/usa.png);
-}
-.country-select .select-col .btn-info.dropdown-toggle span {
-	font-size: 0;
-}
 .login-right .country-select .select-col .select2-container--default .select2-selection--single {
 	background-color: #fdfdfd;
 	border-radius: 10px 0 0 10px;
@@ -5042,18 +4963,19 @@ html.menu-opened body {
     padding: 2rem 0;
 }
 .section-search-1 { 
-	background: #f9f9f9 url(../img/slider-bg.jpg) no-repeat bottom center;
+	background-color: #f9f9f9 url(../img/slider-bg.jpg) no-repeat bottom center;
     min-height: 450px;
     position: relative;
     background-blend-mode: Darken;
 }
 .doctor-search-section { 
 	position: relative;
-    background: url(../img/banner-2.jpg);
+    background-color: #fdfdfd;
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
+	padding-top: 2rem;
 } 
 .section-search-2 { 
 	background: #4d72d0;
@@ -5313,10 +5235,6 @@ html.menu-opened body {
     color: #757575;
     font-size: 13px;
 }
-.section-specialities {
-	background-color: #fdfdfd;
-	padding: 80px 0;
-}
 .section-category{
 	background-color: #fdfdfd;
 	padding: 80px 0;
@@ -5395,6 +5313,11 @@ html.menu-opened body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+
+.popular-test {
+	margin-top: 5rem;
+}
 .slick-dots li.slick-active button {
     background-color: #5057af;
 }
@@ -5424,6 +5347,7 @@ html.menu-opened body {
 	width: 150px;
 	background: #fdfdfd;
 }
+
 .speicality-img img {
 	position: absolute;
 	top: 50%;
@@ -6951,9 +6875,6 @@ html.menu-opened body {
 	top: 35%;
     right: 15px;
 	color: #DD2D4E;
-}
-.doctor-search-section {
-	padding-top: 95px;
 }
 .banner-btn {
     background: #10613f;
@@ -12753,9 +12674,7 @@ ul.benifits-col li i{
 	.section-search {
 		min-height: 330px;
 	}
-	.section-specialities {
-		padding: 50px 0;
-	}
+	
 	.footer-widget {
 		margin-bottom: 30px;
 	}
@@ -12826,9 +12745,6 @@ ul.benifits-col li i{
 	}
 	.doctor-search {
 		padding: 30px 0;
-	}
-	.doctor-search-section {
-		padding-top: 85px;
 	}
 	.shapes {
 		display: none;
@@ -13995,6 +13911,11 @@ ul.benifits-col li i{
 		background-color: #fdfdfd;
 		padding: 30px 0;
 	} 
+	.section-popular-test {
+		margin: 2rem;
+		padding: 2rem;
+		background-color: #009efb;
+	}
 	.login-header h3 a {
 		color: #5057af;
 		float: none;
