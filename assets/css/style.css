@@ -130,7 +130,7 @@ a {
     color: #2E3842;
 }
 a:hover {
-	color: #486ac7;
+	color: #373B7A;
 }
 a:hover,
 a:active,
@@ -5846,7 +5846,7 @@ html.menu-opened body {
     box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
 	border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 10px;
-    padding: 20px;
+    padding: 1rem;
 	margin-bottom: 30px;
 }
 .category-box:hover {
@@ -5858,73 +5858,19 @@ html.menu-opened body {
 	cursor: pointer;
 }
 .category-image{
-	background: #48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-487bc7
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792
-48c792;
-    height: 60px;
-    margin: auto;
-    width: 60px;
+    height: 100%;
+    width: auto;
     align-items: center;
     padding-top: 7px;
 	border-radius: 4px;
 }
 .category-image img{
-	width: 45px;
-	height: 45px
+	width: 80%;
+	border-radius: .5rem;
+	height: auto;
 }
 .category-content{
+	text-align: left;
 	margin-top: 20px;
 }
 .category-content h4{
