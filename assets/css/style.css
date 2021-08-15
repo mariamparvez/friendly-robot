@@ -5460,13 +5460,6 @@ html.menu-opened body {
     visibility: hidden;
 	z-index: 99;
 }
-.profile-widget:hover .fav-btn {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-}
 .profile-widget .fav-btn:hover {
 	background-color: #fb1612;
 	color: #fdfdfd;
@@ -5861,11 +5854,10 @@ html.menu-opened body {
     height: 100%;
     width: auto;
     align-items: center;
-    padding-top: 7px;
 	border-radius: 4px;
 }
 .category-image img{
-	width: 80%;
+	width: 100%;
 	border-radius: .5rem;
 	height: auto;
 }
@@ -7428,7 +7420,7 @@ body .multi-optn {
     color: #fdfdfd;
     font-size: 12px;
 }
-.book-slider .profile-widget:hover .amt {
+.book-slider .amt {
 	opacity: 1;
 }
 .book-slider .provider-info h3 a {
@@ -7450,7 +7442,7 @@ body .multi-optn {
     -ms-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
 }
-.book-slider .profile-widget:hover .provider-info {
+.book-slider .provider-info {
 	transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -7502,10 +7494,10 @@ body .multi-optn {
 	display: none;
 	padding: 0;
 }
-.book-slider .profile-widget:hover .side-arrow {
+.book-slider .side-arrow {
 	display: none;
 }
-.book-slider .profile-widget:hover .rating, .book-slider .profile-widget:hover .content-info {
+.book-slider .rating, .book-slider .content-info {
 	display: block;
 }
 .book-slider .available-info li i {
@@ -11275,6 +11267,7 @@ body .multi-optn {
 	height: auto;
 }
 .blog-image img {
+	border-radius: 2rem;
     -webkit-transform: translateZ(0);
     -moz-transform: translateZ(0);
 	transform: translateZ(0);
@@ -11285,9 +11278,9 @@ body .multi-optn {
 	transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
 }
 .blog-image a:hover img {
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    transform: scale(1.15);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    transform: scale(1.01);
 }
 .blog-image {
 	margin-bottom: 30px;
@@ -12017,7 +12010,7 @@ body .multi-optn {
 	-webkit-justify-content: center;
 	float: right;
 }
-.product-custom .profile-widget:hover .cart-icon{
+.product-custom .cart-icon{
 	color: #fdfdfd;
 	background-color: #5057af;
 }
