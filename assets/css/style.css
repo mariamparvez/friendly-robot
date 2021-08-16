@@ -14219,6 +14219,76 @@ ul.benifits-col li i{
 	}
 	  }
 
+	  @media only screen and (max-width: 500px) {
+		.form-design {
+			box-shadow: none;
+			width: 90vw;
+			height: fit-content;
+			margin-bottom: 4rem;
+		}
+		
+		.search-btns{
+			padding: 1rem;
+			margin-right: 0%;
+			width: 28%;
+			background-color: #eeeee8;
+			border-right: rgb(16, 97, 63, .2) 1px solid;
+		}
+		.search-btns2{
+			padding: 1rem;
+			width: 28%;
+			background-color: #eeeee8;
+			margin-right: 0%;
+			border-right: rgb(16, 97, 63, .2) 1px solid;
+		}
+		
+		.search-btns3 {
+			padding:.4rem;
+			width: 34%;
+			background-color: #eeeee8;
+			margin-right: 0%;
+		}
+		.banner-wrapper .banner-header h1 {
+			font-weight: 0;
+			height: 0;
+			width: 0;
+			opacity: 0;
+		}
+		
+		.s-btns {
+			align-content: space-around;	
+		} 
+		.search-box .search-info .form-control {
+			width: inherit;
+		}
+		
+		.search-box .search-location .form-control {
+			width: inherit;
+		}
+		
+		 #search-btn{
+			margin-left: 0;
+			width: 100%;
+		}
+		
+		.banner-wrapper .banner-header {
+			width: inherit;
+		}
+		.banner-wrapper .banner-header h1 {
+			margin-top: 3rem;
+		}
+		.pharmacy-home-slider img {
+			opacity: 0;
+		}
+		.pharmacy-home-slider {
+			background-image: linear-gradient(to right, #e4eeea , #d1e6dc);
+		}
+		.pharmacy-home-slider .swiper-container{
+			height: 40rem;
+			min-height: inherit;
+		}
+		  }
+
 	  @media only screen and (max-width: 900px) {
 		.search-box .search-info .form-control {
 			width: inherit;
