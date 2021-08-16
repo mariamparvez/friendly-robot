@@ -14004,6 +14004,8 @@ ul.benifits-col li i{
 }
 }
 
+/* styles for form design */
+
 @media only screen and (max-width: 800px) {
 	.form-design {
 		box-shadow: none;
@@ -14158,13 +14160,13 @@ ul.benifits-col li i{
 	.search-btns{
 		padding: 1rem;
 		margin-right: 0%;
-		width: 33%;
+		width: 30%;
 		background-color: #eeeee8;
 		border-right: rgb(16, 97, 63, .2) 1px solid;
 	}
 	.search-btns2{
 		padding: 1rem;
-		width: 33%;
+		width: 30%;
 		background-color: #eeeee8;
 		margin-right: 0%;
 		border-right: rgb(16, 97, 63, .2) 1px solid;
@@ -14172,7 +14174,7 @@ ul.benifits-col li i{
 	
 	.search-btns3 {
 		padding:.4rem;
-		width: 36%;
+		width: 30%;
 		background-color: #eeeee8;
 		margin-right: 0%;
 	}
