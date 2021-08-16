@@ -2691,6 +2691,11 @@ button.bg-danger:hover {
 	-webkit-flex-wrap: wrap;
 	min-height: 180px;
 }
+
+.feature-text {
+	padding-left: 15rem;
+} 
+
 .upload-medical-records .dropzone h5,
 .upload-medical-records .dropzone h6 {
 	color: #7c7c7c;
@@ -2915,7 +2920,7 @@ button.bg-danger:hover {
     font-size: 20px;
     line-height: 1;
     opacity: .75;
-    color: #fdfdfd;
+    color: #373B7A;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -13988,6 +13993,89 @@ ul.benifits-col li i{
 	}
 }
 
+@media (min-width: 768px) {
+.col-md-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 95%;
+    max-width: 95%;
+}
+.txt-pop-box {
+	margin: 1rem 0;
+}
+}
+
+@media only screen and (max-width: 800px) {
+	.form-design {
+		box-shadow: none;
+		width: auto;
+		height: fit-content;
+		margin-bottom: 4rem;
+	}
+	
+	.search-box {
+		width: 100vw;
+	}
+	.search-btns{
+		padding: 1rem;
+		margin-right: 0%;
+		width: 33%;
+		background-color: #eeeee8;
+		border-right: rgb(16, 97, 63, .2) 1px solid;
+	}
+	.search-btns2{
+		padding: 1rem;
+		width: 33%;
+		background-color: #eeeee8;
+		margin-right: 0%;
+		border-right: rgb(16, 97, 63, .2) 1px solid;
+	}
+	
+	.search-btns3 {
+		padding: 1rem .5rem;
+		width: 36%;
+		background-color: #eeeee8;
+		margin-right: 0%;
+	}
+	.banner-wrapper .banner-header h1 {
+		font-weight: 0;
+		height: 0;
+		width: 0;
+		opacity: 0;
+	}
+	
+	.s-btns {
+		align-content: space-around;	
+	} 
+	.search-box .search-info .form-control {
+		width: inherit;
+	}
+	
+	.search-box .search-location .form-control {
+		width: inherit;
+	}
+	
+	 #search-btn{
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	.banner-wrapper .banner-header {
+		width: inherit;
+	}
+	.banner-wrapper .banner-header h1 {
+		margin-top: 3rem;
+	}
+	.pharmacy-home-slider img {
+		opacity: 0;
+	}
+	.pharmacy-home-slider {
+		background-image: linear-gradient(to right, #e4eeea , #d1e6dc);
+	}
+	.pharmacy-home-slider .swiper-container{
+		height: 40rem;
+		min-height: inherit;
+	}
+	  }
 
 @media only screen and (max-width: 600px) {
 .form-design {
@@ -14059,7 +14147,7 @@ ul.benifits-col li i{
 }
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
 	.form-design {
 		box-shadow: none;
 		width: 90vw;
