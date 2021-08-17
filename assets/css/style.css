@@ -12246,9 +12246,6 @@ ul.benifits-col li i{
 			font-size: 10px !important;
 			margin: 0 0 .3rem 0 !important;
 		}
-		.top-two img{
-			margin: .5rem !important;
-		}
 		#s-two {
 			padding: .5rem;
 			margin: 1rem;
@@ -12353,9 +12350,8 @@ ul.benifits-col li i{
 	width: 0 !important;
 }
 .top-two img{
-	width: 50%;
+	width: 80%;
 	height: auto;
-	margin: 1rem;
 }
 #s-two {
 	padding: .5rem;
@@ -12375,12 +12371,12 @@ ul.benifits-col li i{
 	border-radius: 1rem;
 	background-color: rgba(40, 89, 163, 0.04);
 }
-.top-two img{
-	margin: 0 2rem;
-}
 
 .top-two {
 	background-color: #fdfdfd;
 	border-radius: .8rem;
 	margin: 0 0 1rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
