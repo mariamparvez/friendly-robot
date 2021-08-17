@@ -12304,8 +12304,8 @@ ul.benifits-col li i{
 
 	@media only screen and (max-width: 715px) {
 		.h3-two {
-			font-size: 8px !important;
-			margin: 0 0 .5rem 0 !important;
+			font-size: 7.7px !important;
+			margin: 0 0 .3rem 0 !important;
 		}
 		.top-two img{
 			margin: .5rem !important;
@@ -12317,6 +12317,14 @@ ul.benifits-col li i{
 		#btn-two {
 			margin: 0 !important;
 			font-size: 6px !important;
+			padding: .2rem !important;
+		}
+		.top-two {
+			margin: .2rem !important;
+			border-radius: .1rem !important;
+		}
+		#s-two {
+			border-radius: .1rem;
 			padding: .2rem !important;
 		}
 	}
@@ -12438,7 +12446,6 @@ ul.benifits-col li i{
 }
 
 .section-two {
-	background-color: rgba(0, 158, 251, .02);
 	margin-bottom: 2rem;
 	display: flex;
 	justify-content: center;
@@ -12446,8 +12453,8 @@ ul.benifits-col li i{
 }
 .styles-two {
 	margin: 0 1rem;
-	padding: 2rem;
-	border-radius: .5rem;
+	padding: 1rem;
+	border-radius: 1rem;
 	background-color: rgba(40, 89, 163, 0.04);
 }
 
@@ -12460,5 +12467,11 @@ ul.benifits-col li i{
 }
 
 .top-two img{
-	margin: 2rem;
+	margin: 0 2rem;
+}
+
+.top-two {
+	background-color: #fdfdfd;
+	border-radius: .8rem;
+	margin: 0 0 1rem 0;
 }
