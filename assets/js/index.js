@@ -21,3 +21,5 @@ searchBtns3.addEventListener("click",  myFunction => {
     searchBtns2.style.backgroundColor = "rgba(138,165,255, 0.5)";
     searchBtns3.style.backgroundColor = "rgba(16,97,63, 0.2)";
 })
+
+
