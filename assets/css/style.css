@@ -11694,38 +11694,7 @@ ul.benifits-col li i{
 	}
 }
 
-@media only screen and (max-width: 300px) {
-	.search-btns{
-		padding: 1rem;
-		margin-right: 0%;
-		width: 29%;
-		background-color: #eeeee8;
-		border-right: rgb(16, 97, 63, .2) 1px solid;
-	}
-	.search-btns2{
-		padding: 1rem;
-		width: 29%;
-		background-color: #eeeee8;
-		margin-right: 0%;
-		border-right: rgb(16, 97, 63, .2) 1px solid;
-	}
-	
-	.search-btns3 {
-		padding: .45rem;
-		width: 39%;
-		background-color: #eeeee8;
-		margin-right: 0%;
-	}
-	.form-design {
-		box-shadow: none;
-		width: 90vw;
-		height: fit-content;
-	}
-	.search-box .search-location .form-control {
-		width: inherit !important;
-	}
-}
-@media only screen and (max-width: 415px) and (min-width: 499px) {
+@media only screen and (max-width: 280px) and (min-width: 499px){
 .form-design {
 	box-shadow: none;
 	width: 90vw;
@@ -11735,13 +11704,13 @@ ul.benifits-col li i{
 .search-btns{
 	padding: 1rem;
 	margin-right: 0%;
-	width: 28%;
+	width: 27%;
 	background-color: #eeeee8;
 	border-right: rgb(16, 97, 63, .2) 1px solid;
 }
 .search-btns2{
 	padding: 1rem;
-	width: 28%;
+	width: 27%;
 	background-color: #eeeee8;
 	margin-right: 0%;
 	border-right: rgb(16, 97, 63, .2) 1px solid;
@@ -11749,7 +11718,7 @@ ul.benifits-col li i{
 
 .search-btns3 {
 	padding: .45rem;
-	width: 33.6%;
+	width: 34.6%;
 	background-color: #eeeee8;
 	margin-right: 0%;
 }
@@ -11938,7 +11907,7 @@ ul.benifits-col li i{
 }
 
 
-@media only screen and (max-width: 500px) and (min-width: 490ox) {
+@media only screen and (max-width: 500px) {
 .form-design {
 	box-shadow: none;
 	width: 90vw;
