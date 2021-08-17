@@ -12337,6 +12337,10 @@ ul.benifits-col li i{
 .search-box .search-info .form-control {
 	width: inherit;
 }
+.banner-wrapper {
+	background-image: linear-gradient(to bottom, rgb(129, 202, 251, .4) 80%, rgba(211, 237, 255, 0.4)) ;
+	margin: 0 !important;
+}
 .h3-two {
 	font-size: 15px;
 }
