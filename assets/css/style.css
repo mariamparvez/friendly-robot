@@ -12340,7 +12340,7 @@ ul.benifits-col li i{
 .h3-two {
 	font-size: 15px;
 }
-.h6-two, #btn-two, a {
+.h6-two, #btn-two{
 	border: 0 !important;
 	font-size: 0 !important;
 	padding: 0 !important;
@@ -12379,4 +12379,14 @@ ul.benifits-col li i{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+#btn-two {
+	background-color: #fdfdfd;
+	border-radius: 2rem;
+	padding: .3rem 3rem;
+}
+#btn-two:hover, a:hover{
+	color: #fdfdfd !important;
+	background-color: #373B7A;
 }
