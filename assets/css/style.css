@@ -11692,18 +11692,6 @@ ul.benifits-col li i{
 		border-left: 170px solid transparent;
 		border-right: 160px solid transparent;
 	}
-	.txt-pop-box {
-		width: 0;
-		opacity: 0;
-		height: 0;
-		margin: 0%;
-		padding: 0%;
-	}
-	img {
-		width: 50%;
-		height: auto;
-		padding: .1rem; 
-	}
 }
 @media only screen and (max-width: 415px) {
 .form-design {
@@ -12249,12 +12237,13 @@ ul.benifits-col li i{
 	width: 100%;
 }
 }
-
-
-
 	@media only screen and (max-width: 715px) {
+		.body-two {
+			margin-top: 10px;
+			height: 30px;
+		}
 		.h3-two {
-			font-size: 7.7px !important;
+			font-size: 10px !important;
 			margin: 0 0 .3rem 0 !important;
 		}
 		.top-two img{
@@ -12263,19 +12252,11 @@ ul.benifits-col li i{
 		#s-two {
 			padding: .5rem;
 			margin: 1rem;
-		}
-		#btn-two {
-			margin: 0 !important;
-			font-size: 6px !important;
-			padding: .2rem !important;
+			border-radius: .1rem;
 		}
 		.top-two {
 			margin: .2rem !important;
 			border-radius: .1rem !important;
-		}
-		#s-two {
-			border-radius: .1rem;
-			padding: .2rem !important;
 		}
 	}
 
@@ -12287,21 +12268,11 @@ ul.benifits-col li i{
 }
 
 .h3-two {
-	font-size: 12px;
+	font-size: 18px;
 }
 .top-two img{
 	margin: .5rem !important;
 }
-#s-two {
-	padding: .5rem;
-	margin: 1rem;
-}
-#btn-two {
-	margin: 0 !important;
-	font-size: 12px;
-	padding: .1rem;
-}
-
 .search-box {
 	width: 100vw;
 }
@@ -12366,28 +12337,30 @@ ul.benifits-col li i{
 	}
 
 @media only screen and (max-width: 900px) {
-	.search-box .search-info .form-control {
-		width: inherit;
+.search-box .search-info .form-control {
+	width: inherit;
 }
-	.h3-two {
-		font-size: 15px;
-	}
-	.h6-two {
-		font-size: 0;
-		margin: 0;
-		opacity: 0;
-		height: 0;
-		width: 0;
-	}
-	.top-two img{
-		width: 50%;
-		height: auto;
-		margin: 1rem;
-	}
-	#s-two {
-		padding: .5rem;
-		margin: .5rem;
-	}
+.h3-two {
+	font-size: 15px;
+}
+.h6-two, #btn-two, a {
+	border: 0 !important;
+	font-size: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	opacity: 0 !important;
+	height: 0 !important;
+	width: 0 !important;
+}
+.top-two img{
+	width: 50%;
+	height: auto;
+	margin: 1rem;
+}
+#s-two {
+	padding: .5rem;
+	margin: .5rem;
+}
 }
 
 .section-two {
@@ -12402,15 +12375,6 @@ ul.benifits-col li i{
 	border-radius: 1rem;
 	background-color: rgba(40, 89, 163, 0.04);
 }
-
-#btn-two {
-	padding: .5rem;
-	border: 1px #151515 solid;
-	border-radius: 2rem;
-	margin: .5rem;
-	color: #fdfdfd;
-}
-
 .top-two img{
 	margin: 0 2rem;
 }
