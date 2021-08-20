@@ -776,12 +776,26 @@
 		<!-- Custom JS -->
 		<script src="assets/js/script.js"></script>
 		<script src="assets/js/index.js"></script>
+	   
 	   <script>
-		   function activatePlaceSearch() {
-    			var input = document.getElementById("location");
-    			var autocomplete = new google.maps.places.Autocomplete(input)
-			}
+		   function initMap() {
+		
+		var location = { lat: 20.593684, lng: 78.96288 };
+		var options = {
+			center: location,
+ 	 		zoom: 5
+		};
+		autocomplete = new google.maps.places.Autocomplete(document.getElementById("location"), 
+		{
+			componentRestrictions: {'country': ['india']},
+			fields: ['geometry', 'name'],
+			types: ['establishments']
+		})
+	}
 	   </script>
-		<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHkm7t_yXIgQDMevxwFQ5aFi2rTNuWFUo&libraries=places&callback=initMap&callback=activatePlaceSearch"></script>
-	</body>
+		
+		<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz8hDmFdGC07y7pvhe4hlsgTVUcvWfkjU&libraries=places&callback=initMap">
+		</script>
+	
+</body>
 </html>

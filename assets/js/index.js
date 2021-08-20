@@ -1,5 +1,3 @@
-console.log('hi')
-
 let searchBtns = document.getElementById("search-btns");
 let searchBtns2 = document.getElementById("search-btns2");
 let searchBtns3 = document.getElementById("search-btns3");
