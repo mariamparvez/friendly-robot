@@ -12389,6 +12389,7 @@ ul.benifits-col li i{
 	align-items: center;
 }
 .styles-two {
+	background-color: rgba(221, 221, 221, 0.52);
 	margin: 0 1rem;
 	padding: 1rem;
 	height: 19rem;
@@ -12408,6 +12409,7 @@ ul.benifits-col li i{
 	border: 1px #151515 solid;
 	margin: 1.5rem;
 	font-size: 14px;
+	background-color: #fdfdfd;
 	border-radius: 2rem;
 }
 #btn-two:hover {
