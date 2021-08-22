@@ -355,6 +355,7 @@ a.bg-primary:hover,
 button.bg-primary:focus, 
 button.bg-primary:hover {
     background-color: #373B7A !important;
+	color: #fdfdfd;
 }
 .bg-success,
 .badge-success {
@@ -458,6 +459,7 @@ button.bg-danger:hover {
 .btn-primary:active,
 .open > .dropdown-toggle.btn-primary {
 	background-color: #373B7A;
+	color: #fdfdfd;
 	border: 1px solid #373B7A;
 }
 .btn-primary.active.focus,
@@ -470,6 +472,7 @@ button.bg-danger:hover {
 .open > .dropdown-toggle.btn-primary:focus,
 .open > .dropdown-toggle.btn-primary:hover {
 	background-color: #373B7A;
+	color: #fdfdfd;
 	border: 1px solid #373B7A;
 }
 .btn-primary.active:not(:disabled):not(.disabled),
@@ -675,6 +678,7 @@ button.bg-danger:hover {
 }
 .btn-outline-primary:hover {
 	background-color: #373B7A;
+	color: #fdfdfd;
 	border-color: #373B7A;
 }
 .btn-outline-primary:focus, 
@@ -822,6 +826,7 @@ button.bg-danger:hover {
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
 	background-color: #373B7A;
+	color: #fdfdfd;
 	border-color: #373B7A;
 }
 .pagination > li > a, 
@@ -1678,7 +1683,6 @@ button.bg-danger:hover {
     font-size: 20px;
     line-height: 1;
     opacity: .75;
-    color: #373B7A;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -2183,7 +2187,7 @@ button.bg-danger:hover {
 .unread-msg1{
 	background-color: #373B7A;
     border-radius: 2px;
-    color: #272b41;
+    color: #fdfdfd;
     font-size: 10px;
     font-style: normal;
     padding: 0 5px;
@@ -2364,6 +2368,7 @@ button.bg-danger:hover {
 }
 .bar-icon span {
     background-color: #373B7A;
+	color: #fdfdfd;
     display: block;
     float: left;
     height: 3px;
@@ -4825,6 +4830,7 @@ html.menu-opened body {
 }
 .doctors-body .book-btn:hover {
 	background-color: #373B7A;
+	color: #fdfdfd;
 	border: 0;
 }
 .doctors-body {
@@ -5267,7 +5273,6 @@ body .multi-optn {
     font-size: 10px;
     line-height: 1;
     opacity: .75;
-    color: #151515;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     border: solid #151515;
@@ -5378,6 +5383,7 @@ body .multi-optn {
 }
 .clinic-slider .brower-box:hover a.arrow {
 	background-color: #373B7A;
+	color: #fdfdfd;
 }
 .clinic-slider .brower-box:hover h4, .clinic-slider .brower-box:hover p, .clinic-slider .brower-box:hover p span {
 	color: #fdfdfd;
@@ -7090,6 +7096,7 @@ body .multi-optn {
     width: 9px;
     height: 9px;
     background-color: #373B7A;
+	color: #fdfdfd;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: scale(0.1);
@@ -7212,7 +7219,6 @@ body .multi-optn {
 	-ms-flex-pack: center;
     font-size: 30px;
     margin-bottom: 30px;
-    background-color: #373B7A;
 }
 .success-cont h3 {
     font-size: 24px;
