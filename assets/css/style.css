@@ -1722,6 +1722,7 @@ button.bg-danger:hover {
 .slick-prev:before {
     content: '←';
 }
+
 [dir='rtl'] .slick-prev:before {
     content: '→';
 }
@@ -5273,6 +5274,10 @@ body .multi-optn {
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
+}
+
+.clinic-slider:hover, .slick-prev:hover {
+	color: #fdfdfd;
 }
 .clinic-slider .slick-prev, .browse-slider .slick-prev, .book-slider .slick-prev {
 	right: 80px;
@@ -12352,7 +12357,7 @@ ul.benifits-col li i{
 .h3-two {
 	font-size: 15px;
 }
-.h6-two, #btn-two{
+.h6-two{
 	border: 0 !important;
 	font-size: 0 !important;
 	padding: 0 !important;
@@ -12391,16 +12396,4 @@ ul.benifits-col li i{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-#btn-two {
-	background-color: #fdfdfd;
-	border-radius: 2rem;
-	padding: .3rem 3rem;
-	border: #151515 solid 1px;
-}
-#btn-two:hover{
-	color: #fdfdfd !important;
-	background-color: #373B7A;
-	border: none;
 }
