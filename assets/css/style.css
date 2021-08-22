@@ -1458,6 +1458,13 @@ button.bg-danger:hover {
 .feature-text {
 	padding-left: 15rem;
 } 
+p, .feature-text {
+	font-size: 18px;
+	font-weight: 500;
+} 
+.mt-2 {
+	font-size: 36px;
+} 
 
 .upload-medical-records .dropzone h5,
 .upload-medical-records .dropzone h6 {
@@ -3815,7 +3822,7 @@ html.menu-opened body {
 }
 .section-features {
 	background-color: #fdfdfd;
-	padding: 3rem 0 0 0;
+	padding: 8rem 0 0 0;
 }
 .feature-item img {
     border-radius: 100%;
