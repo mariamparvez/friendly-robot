@@ -12329,8 +12329,13 @@ ul.benifits-col li i{
 	background-color: rgba(221, 221, 221, 0.52);
 	margin: 0 1rem;
 	padding: 1rem;
-	height: 19rem;
+	height: 22rem;
 	border-radius: 1rem;
+}
+
+#img-two {
+	width: auto;
+	height:180px;
 }
 
 .top-two {
