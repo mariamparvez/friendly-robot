@@ -3314,10 +3314,20 @@ html.menu-opened body {
 	width:fit-content;
 }
 .search-img {
-    margin: 80px -600px 80px auto;
+    margin: 60px auto;
 	width: 150%;
-	z-index: 999;
+	z-index: 1;
+	position: absolute;
 	height: auto;
+	border-radius: 1rem;
+}
+.search-area {
+    background: rgb(253,253,253,.5);
+    padding: 60px 60px 60px 260px;
+    position: absolute;
+    border-radius: 10px;
+    max-width: 90rem;
+    margin: auto;
 }
 .banner-wrapper .banner-header {
 	margin-bottom: 30px;
@@ -3333,15 +3343,6 @@ html.menu-opened body {
 	color: #151515;
 	margin-bottom: 0;
 	font-weight: 700 !important;
-}
-.search-area {
-    background: rgb(253,253,253,.5);
-    padding: 60px 60px 60px 160px;
-    position: relative;
-    z-index: 1;
-    border-radius: 10px;
-    max-width: 90rem;
-    margin: auto;
 }
 .search-doctor {
     margin: auto;
@@ -12333,9 +12334,9 @@ ul.benifits-col li i{
 	border-radius: 1rem;
 }
 
-#img-two {
+.img-two {
 	width: auto;
-	height:180px;
+	height: 90%;
 }
 
 .top-two {
