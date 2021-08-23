@@ -2465,11 +2465,6 @@ html.menu-opened body {
 	position: relative;
 	transition: all 0.4s ease 0s;
 }
-.footer .footer-widget.footer-menu ul li a:hover {
-	color: #151515;
-	letter-spacing: 0.5px;
-	padding-left: 30px;
-}
 .footer .footer-menu ul li a::before {
     content: "\f101";
     font-family: "Font Awesome 5 Free";
