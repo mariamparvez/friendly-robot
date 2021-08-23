@@ -12,7 +12,7 @@
 }
 .img-banner {
 	height: 80vh;
-	width: 100vw;
+	width: 100%;
 }
 .material-icons {
 	font-family: 'Material Icons';
@@ -3608,9 +3608,9 @@ html.menu-opened body {
     width: 100%;
 }
 .doc-img:hover img {
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    transform: scale(1.15);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    transform: scale(1.02);
 }
 .profile-widget .fav-btn {
 	-webkit-box-align: center;
@@ -4918,7 +4918,7 @@ html.menu-opened body {
 	color: #DD2D4E;
 }
 .banner-btn {
-    background: #373B7A;
+    background: #23275a;
     border-radius: 130px;
     color: #fdfdfd;
     font-weight: 400;
@@ -10853,10 +10853,6 @@ ul.benifits-col li i{
     	padding: 37px 0;		
 		width: 600px;
 	}
-	.doc-h1 {
-		letter-spacing: .8px;
-		margin-bottom: 1rem;
-	}
 	.dot-slider .slick-slide {
 		height: 375px;
 	}
@@ -12371,11 +12367,11 @@ ul.benifits-col li i{
 	background-color: #CEE9F6;
 }
 .p-tool {
-	font-size: 16px;
+	font-size: 14px;
 }
 .h3-tool {
 	color: #70D0FF;
-	font-size: 26px;
+	font-size: 22px;
 	font-weight: 700;
 }
 .sec-tool {
@@ -12384,6 +12380,15 @@ ul.benifits-col li i{
 .text-tool {
 	margin-left:1rem;
 }
+#img-tool {
+	border-radius: 1rem;
+}
 .sizer {
 padding-top: 6rem;
+}
+
+#preg-tool {
+	background-image: url(../img/slider/slider-3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
