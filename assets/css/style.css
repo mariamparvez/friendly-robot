@@ -4275,24 +4275,21 @@ html.menu-opened body {
 	margin-top: 20px;
 }
 .browse-section {
-	background-color: #E5F6FD;
-	padding: 60px 0;
+	background-image: url(../img/banner-2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 40px 0;
 }
 .brower-box {
 	text-align: center;
     border-radius: 10px;
-    border: 6px solid #fdfdfd;
-    background-color: #fdfdfd;
 	margin-bottom: 20px;
 }
 .brower-box > div {
-	border-radius: 15px;
-    background-color: #e5f6fd;
 	height: 100%;
-	padding: 15px;
 }
 .brower-img {
-	background-color: #1C71EF;
+	background-color: #CEE9F6;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -4302,21 +4299,14 @@ html.menu-opened body {
     align-items: center;
 }
 .brower-img img{
-	width: auto;
+	width: 60%;
+	height: auto;
 }
 .brower-box h4 {
 	font-size: 16px;
 	font-weight: 600;
-	color: #2264C5;
-}
-.brower-box p {
-	font-size: 14px;
-	font-weight: 500;
-	color: #ff8a8e;
-	margin: 0;
-}
-.brower-box p span {
-	color: #000;
+	color: #151515;
+	letter-spacing: .4px;
 }
 .doc-background {
 	background: url(../img/shapes/doctor-bg.jpg);
