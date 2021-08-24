@@ -1578,7 +1578,30 @@ p, .feature-text {
 .slick-arrow.slick-hidden {
     display: none;
 }
-
+.slick-prev,
+.slick-next,
+.pharmacy-home-slider .swiper-button-prev,
+.pharmacy-home-slider .swiper-button-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+	box-shadow: 1px 6px 14px rgba(0,0,0,0.2);
+	background: #fdfdfd;
+	border-radius: 100%;	
+    cursor: pointer;	
+    border: none;
+    outline: none;
+    background: #fdfdfd;
+    z-index: 9999;
+}
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
@@ -12248,7 +12271,6 @@ ul.benifits-col li i{
 }
 .pharmacy-home-slider .swiper-container{
 	height: 40rem;
-
 	min-height: inherit;
 }
 	}
@@ -12290,6 +12312,10 @@ ul.benifits-col li i{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+#section-two {
+	margin-top: 16rem;
+	margin-bottom: 4rem;
 }
 .styles-two {
 	background-color: rgba(221, 221, 221, 0.52);
@@ -12381,7 +12407,4 @@ padding-top: 6rem;
 .btn-light {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.002), 0 2px 8px 0 rgba(0, 0, 0, 0.019);
 }
-#section-two {
-	padding-top: 16rem;
-	padding-bottom: 4rem;
-}
+
