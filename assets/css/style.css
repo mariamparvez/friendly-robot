@@ -1399,10 +1399,19 @@ button.bg-danger:hover {
 .feature-text {
 	padding-left: 15rem;
 } 
+
 p, .feature-text {
 	font-size: 18px;
 	font-weight: 500;
 } 
+.fa-angle-double-right {
+	margin-right: 1rem;
+}
+ul li{
+	text-decoration: none;
+	list-style: none;
+	margin: 1rem;
+}
 .mt-2 {
 	font-size: 36px;
 } 
