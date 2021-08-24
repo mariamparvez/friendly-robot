@@ -1396,13 +1396,10 @@ button.bg-danger:hover {
 	min-height: 180px;
 }
 
-.feature-text {
-	padding-left: 10rem;
-} 
-
 p, .feature-text {
 	font-size: 18px;
 	font-weight: 500;
+	margin-bottom: 0;
 } 
 .fa-angle-double-right {
 	margin-right: 1rem;
@@ -3666,7 +3663,6 @@ html.menu-opened body {
     font-size: 13px;
     color: #757575;
     margin-bottom: 5px;
-    min-height: 40px;
 }
 .rating {
     list-style: none;
