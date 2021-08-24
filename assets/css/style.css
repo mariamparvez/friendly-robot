@@ -12325,10 +12325,6 @@ ul.benifits-col li i{
 	justify-content: center;
 	align-items: center;
 }
-#section-two {
-	margin-top: 16rem;
-	margin-bottom: 4rem;
-}
 .styles-two {
 	background-color: rgba(221, 221, 221, 0.52);
 	margin: 0 1rem;
@@ -12420,5 +12416,9 @@ padding-top: 6rem;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.002), 0 2px 8px 0 rgba(0, 0, 0, 0.019);
 }
 #banner-wrapper {
-	padding: 16rem 0 0 0;
+	padding: 22rem 0 0 0;
+}
+#section-two {
+	margin-top: 16rem;
+	margin-bottom: 2rem;
 }
