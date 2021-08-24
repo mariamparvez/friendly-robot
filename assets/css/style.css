@@ -3330,10 +3330,6 @@ html.menu-opened body {
     max-width: 90rem;
     margin: auto;
 }
-.banner-wrapper .banner-header {
-	margin-bottom: 30px;
-	padding-top: 5rem !important;
-}
 .banner-wrapper .banner-header h1 {
 	font-size: 2.566rem !important;
 	color: #151515;
@@ -12283,6 +12279,22 @@ ul.benifits-col li i{
 }
 
 @media only screen and (max-width: 1020px) {
+	#banner-wrapper {
+		padding: 0 !important;
+	}
+	.styles-two {
+		height: 220px !important;
+	}
+	#btn-two {
+		margin: 0;
+		padding: 0;
+		height: 0;
+		width: 0;
+		opacity: 0;
+	}
+	#header {
+		padding: 0 auto 2rem 2rem;
+	}
 .search-box .search-info .form-control {
 	width: inherit;
 }
@@ -12321,7 +12333,7 @@ ul.benifits-col li i{
 	background-color: rgba(221, 221, 221, 0.52);
 	margin: 0 1rem;
 	padding: 1rem;
-	height: 22rem;
+	height: 19rem;
 	border-radius: 1rem;
 }
 
@@ -12407,4 +12419,6 @@ padding-top: 6rem;
 .btn-light {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.002), 0 2px 8px 0 rgba(0, 0, 0, 0.019);
 }
-
+#banner-wrapper {
+	padding: 16rem 0 0 0;
+}
