@@ -4286,6 +4286,20 @@ html.menu-opened body {
 	background-position: center;
 	padding: 50px 0 30px 0;
 }
+.styling-box {
+	padding: 2rem 1rem;
+	border-radius: 1rem;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.02), 0 1px 4px 0 rgba(0, 0, 0, 0.09);
+}
+.styling-box:hover {
+	box-shadow: none;
+	border: 1px solid rgb(63, 63, 63, .2);
+}
+#browse-section {
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 50px 0 30px 0;
+}
 .brower-box {
 	text-align: center;
     border-radius: 10px;
@@ -5922,25 +5936,25 @@ body .multi-optn {
 	font-weight: 500;
 	color: #000;
 }
-.browse-section.brower-category {
+.brower-category {
 	padding: 60px 0;
 	background: url(../img/slider/banner-02.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.browse-section.brower-category .heading-wrapper h1 {
+.brower-category .heading-wrapper h1 {
 	color: #E5F6FD;
 }
-.browse-section.brower-category .brower-box > div {
+.brower-category .brower-box > div {
 	background-color: #F2F7FF;
 	border-radius: 20px 20px 0px 0px;
 }
-.browse-section.brower-category .brower-img {
+.brower-category .brower-img {
 	background-color: #28DAF4;
 	margin-bottom: 40px;
 }
-.browse-section.brower-category .brower-box h4{
+.brower-category .brower-box h4{
 	color: #28DAF4;
 }
 .doctor-divison.provider-select .doc-background {
@@ -10982,7 +10996,7 @@ ul.benifits-col li i{
 	.clinic-speciality {
 		padding: 40px 0 10px;
 	}
-	.browse-section.brower-category {
+	.brower-category {
 		padding: 40px 0 20px;
 	}
 	.doctor-divison.provider-select .doc-background, .doctor-divison.provider-select .pat-background {
@@ -11451,9 +11465,6 @@ ul.benifits-col li i{
 		margin-top: 2rem;
 	}
 	.clinic-specialities {
-		padding: 40px 0;
-	}
-	.browse-section {
 		padding: 40px 0;
 	}
 	.doc-background, .pat-background {
