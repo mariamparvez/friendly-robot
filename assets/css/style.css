@@ -12509,11 +12509,10 @@ font-size: 10px;
 	margin: 1rem auto 4rem auto;
 }
 .work-section img {
-	width: 12%;
+	width: 30%;
 	height: auto;
 	padding: .5rem;
 	border-radius: 50%;
-	background-color: #b1def8;
 }
 .work-section h6 {
 	margin: .3rem 3rem;
