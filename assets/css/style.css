@@ -12435,3 +12435,35 @@ padding-top: 6rem;
 	margin-top: 16rem;
 	margin-bottom: 2rem;
 }
+
+.top-test {
+	padding: 1rem;
+	border: 1px solid rgba(199, 187, 187, 0.2);
+}
+
+.top-test-sec {
+	margin: 2rem;
+}
+
+.top-test:hover {
+	background-color: rgba(238, 227, 238, 0.2);
+}
+.top-test p {
+	font-weight: 200;
+	font-size: 12px;
+}
+
+.top-test-1 {
+	display: flex;
+	align-items: center;
+	padding: .2rem 1rem 1rem .2rem;
+}
+
+.top-test-img{
+	width: 40px !important;
+	height: auto;
+	padding: 8px;
+	margin-right: 8px;
+	border-radius: 50%;
+	background-color: rgb(83,121,222, .2);
+}
